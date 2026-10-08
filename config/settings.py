@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-hf6h5#z0-4pgc@r=7yj=^x8__9_35rbff4!)$lb_0&u8v2$t(b
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "dammy-spice-backend.onrender.com",
+    "restaurant-backend-production-b36b.up.railway.app",
     "localhost",
     "127.0.0.1",
 ]
