@@ -1,7 +1,7 @@
 import sqlite3
 import json
 
-database_path = "restaurant/db.sqlite3"
+database_path = "db.sqlite3"
 output_path = "sqlite_export.json"
 
 connection = sqlite3.connect(database_path)
