@@ -40,9 +40,11 @@ with psycopg.connect(database_url, sslmode="require") as destination:
         table_names = [row["name"] for row in tables]
 
         # Transfer categories first, then menu items, then other tables.
-        table_names.sort(key=lambda table: (
-            0 if table == "menu_category" else
-            1 if table == "menu_menuitem" else 2
+        table_names.sort(
+            key=lambda table: (
+                0 if table == "menu_category" else
+                1 if table == "menu_menuitem" else 
+                2
         ))
 
         for table in table_names:
