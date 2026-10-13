@@ -1,0 +1,5782 @@
+[
+{
+  "model": "menu.category",
+  "pk": 9,
+  "fields": {
+    "name": "Entrées",
+    "slug": "entrees",
+    "description": "A taste of something delicious.",
+    "image": "menu/categories/entree_LICwlWm.jpg",
+    "is_active": true,
+    "display_order": 1,
+    "created_at": "2026-09-12T00:27:03.521Z",
+    "updated_at": "2026-09-12T00:27:39.535Z"
+  }
+},
+{
+  "model": "menu.category",
+  "pk": 10,
+  "fields": {
+    "name": "Appetizers",
+    "slug": "appetizers",
+    "description": "Small bites to start your meal.",
+    "image": "menu/categories/appertizer_53JSsCU.jpg",
+    "is_active": true,
+    "display_order": 2,
+    "created_at": "2026-09-12T00:29:15.623Z",
+    "updated_at": "2026-09-12T00:29:15.623Z"
+  }
+},
+{
+  "model": "menu.category",
+  "pk": 11,
+  "fields": {
+    "name": "Main Courses",
+    "slug": "main-courses",
+    "description": "Delicious meals made to satisfy.",
+    "image": "menu/categories/main-course_BYZddZ1.jpg",
+    "is_active": true,
+    "display_order": 3,
+    "created_at": "2026-09-12T00:29:47.488Z",
+    "updated_at": "2026-09-12T00:29:47.488Z"
+  }
+},
+{
+  "model": "menu.category",
+  "pk": 12,
+  "fields": {
+    "name": "Drinks",
+    "slug": "drinks",
+    "description": "Refreshing drinks to complement your meal.",
+    "image": "menu/categories/drinks_dW9uFEf.jpg",
+    "is_active": true,
+    "display_order": 4,
+    "created_at": "2026-09-12T00:30:25.941Z",
+    "updated_at": "2026-09-12T00:30:25.941Z"
+  }
+},
+{
+  "model": "menu.category",
+  "pk": 13,
+  "fields": {
+    "name": "Desserts",
+    "slug": "desserts",
+    "description": "Sweet treats to end your meal.",
+    "image": "menu/categories/desert_mKKilCf.jpg",
+    "is_active": true,
+    "display_order": 5,
+    "created_at": "2026-09-12T00:30:58.152Z",
+    "updated_at": "2026-09-12T00:30:58.152Z"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 1,
+  "fields": {
+    "type": "mood",
+    "name": "Happy",
+    "code": "happy"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 2,
+  "fields": {
+    "type": "mood",
+    "name": "A little down",
+    "code": "sad"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 3,
+  "fields": {
+    "type": "mood",
+    "name": "Excited",
+    "code": "excited"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 4,
+  "fields": {
+    "type": "mood",
+    "name": "Tired",
+    "code": "tired"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 5,
+  "fields": {
+    "type": "mood",
+    "name": "Relaxed",
+    "code": "relaxed"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 6,
+  "fields": {
+    "type": "craving",
+    "name": "Sweet",
+    "code": "sweet"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 7,
+  "fields": {
+    "type": "craving",
+    "name": "Salty",
+    "code": "salty"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 8,
+  "fields": {
+    "type": "craving",
+    "name": "Savoury",
+    "code": "savoury"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 9,
+  "fields": {
+    "type": "craving",
+    "name": "Spicy",
+    "code": "spicy"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 10,
+  "fields": {
+    "type": "craving",
+    "name": "Fresh",
+    "code": "fresh"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 11,
+  "fields": {
+    "type": "looks",
+    "name": "Bright & colourful",
+    "code": "colourful"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 12,
+  "fields": {
+    "type": "looks",
+    "name": "Loaded & generous",
+    "code": "loaded"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 13,
+  "fields": {
+    "type": "looks",
+    "name": "Crispy & golden",
+    "code": "crispy"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 14,
+  "fields": {
+    "type": "looks",
+    "name": "Fresh & clean",
+    "code": "fresh"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 15,
+  "fields": {
+    "type": "looks",
+    "name": "Beautifully presented",
+    "code": "beautiful"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 16,
+  "fields": {
+    "type": "hunger",
+    "name": "Light",
+    "code": "light"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 17,
+  "fields": {
+    "type": "hunger",
+    "name": "Medium",
+    "code": "medium"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 18,
+  "fields": {
+    "type": "hunger",
+    "name": "Very hungry",
+    "code": "very_hungry"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 19,
+  "fields": {
+    "type": "hunger",
+    "name": "Starving",
+    "code": "starving"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 20,
+  "fields": {
+    "type": "experience",
+    "name": "Comfort",
+    "code": "comfort"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 21,
+  "fields": {
+    "type": "experience",
+    "name": "Adventure",
+    "code": "adventure"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 22,
+  "fields": {
+    "type": "experience",
+    "name": "Classic",
+    "code": "classic"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 23,
+  "fields": {
+    "type": "experience",
+    "name": "Treat myself",
+    "code": "treat"
+  }
+},
+{
+  "model": "menu.discoverytag",
+  "pk": 24,
+  "fields": {
+    "type": "experience",
+    "name": "Keep it simple",
+    "code": "quick"
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 2,
+  "fields": {
+    "category": 10,
+    "name": "Thai Chicken Satay",
+    "country": "Thai",
+    "rating": "4.8",
+    "slug": "thai-chicken-satay",
+    "description": "Grilled chicken skewers with rich peanut sauce.",
+    "price": "3000.00",
+    "image": "menu/items/thai-chicken-satay.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 15,
+    "display_order": 1,
+    "created_at": "2026-09-22T11:41:42.711Z",
+    "updated_at": "2026-09-22T14:10:48.869Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      22,
+      20,
+      17,
+      13,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 3,
+  "fields": {
+    "category": 10,
+    "name": "Thai Fish Cakes",
+    "country": "Thai",
+    "rating": "4.7",
+    "slug": "thai-fish-cakes",
+    "description": "Crispy fish cakes seasoned with Thai herbs and spices.",
+    "price": "3200.00",
+    "image": "menu/items/thai-fish-cakes.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 15,
+    "display_order": 2,
+    "created_at": "2026-09-22T11:44:50.989Z",
+    "updated_at": "2026-09-22T14:12:12.119Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      22,
+      16,
+      17,
+      13,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 4,
+  "fields": {
+    "category": 10,
+    "name": "Thai Shrimp Cakes",
+    "country": "Thai",
+    "rating": "4.9",
+    "slug": "thai-shrimp-cakes",
+    "description": "Golden shrimp cakes served with sweet chili sauce.",
+    "price": "3800.00",
+    "image": "menu/items/thai-shrimp-cakes.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 15,
+    "display_order": 3,
+    "created_at": "2026-09-22T11:47:37.396Z",
+    "updated_at": "2026-09-22T14:16:33.693Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      22,
+      16,
+      17,
+      13,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 5,
+  "fields": {
+    "category": 10,
+    "name": "Miang Kham",
+    "country": "Thai",
+    "rating": "4.7",
+    "slug": "miang-kham",
+    "description": "Betel leaves filled with herbs, peanuts, coconut and lime.",
+    "price": "3500.00",
+    "image": "menu/items/miang-kham.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 20,
+    "display_order": 4,
+    "created_at": "2026-09-22T11:53:07.792Z",
+    "updated_at": "2026-09-22T14:17:56.682Z",
+    "discovery_tags": [
+      10,
+      8,
+      9,
+      21,
+      22,
+      24,
+      23,
+      16,
+      17,
+      11,
+      14,
+      3,
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 6,
+  "fields": {
+    "category": 10,
+    "name": "Gai Hor Bai Toey",
+    "country": "Thai",
+    "rating": "4.8",
+    "slug": "gai-hor-bai-toey",
+    "description": "Marinated chicken wrapped in fragrant pandan leaves.",
+    "price": "3400.00",
+    "image": "menu/items/gai-hor-bai-toey.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 5,
+    "created_at": "2026-09-22T11:57:34.382Z",
+    "updated_at": "2026-09-22T15:30:21.629Z",
+    "discovery_tags": [
+      8,
+      21,
+      22,
+      20,
+      17,
+      13,
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 7,
+  "fields": {
+    "category": 10,
+    "name": "Tod Man Kung",
+    "country": "Thai",
+    "rating": "4.6",
+    "slug": "tod-man-kung",
+    "description": "Crispy Thai-style shrimp patties with sweet chili dip.",
+    "price": "3600.00",
+    "image": "menu/items/tod-man-kung.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 15,
+    "display_order": 6,
+    "created_at": "2026-09-22T12:02:02.801Z",
+    "updated_at": "2026-09-22T15:31:07.114Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      22,
+      23,
+      16,
+      17,
+      13,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 8,
+  "fields": {
+    "category": 10,
+    "name": "Thai Crispy Wontons",
+    "country": "Thai",
+    "rating": "4.5",
+    "slug": "thai-crispy-wontons",
+    "description": "Crispy wontons filled with seasoned chicken and herbs.",
+    "price": "2700.00",
+    "image": "menu/items/thai-crispy-wontons.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 7,
+    "created_at": "2026-09-22T12:05:15.059Z",
+    "updated_at": "2026-09-22T15:31:47.803Z",
+    "discovery_tags": [
+      7,
+      8,
+      22,
+      20,
+      24,
+      16,
+      17,
+      13,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 9,
+  "fields": {
+    "category": 10,
+    "name": "Gougères",
+    "country": "French",
+    "rating": "4.8",
+    "slug": "gougeres",
+    "description": "Light French cheese puffs baked until golden and airy.",
+    "price": "3200.00",
+    "image": "menu/items/gougeres.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 8,
+    "created_at": "2026-09-22T13:24:45.157Z",
+    "updated_at": "2026-09-22T15:32:31.525Z",
+    "discovery_tags": [
+      7,
+      8,
+      22,
+      20,
+      24,
+      16,
+      17,
+      13,
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 10,
+  "fields": {
+    "category": 10,
+    "name": "Escargots",
+    "country": "French",
+    "rating": "4.7",
+    "slug": "escargots",
+    "description": "Tender snails baked with garlic, parsley and butter.",
+    "price": "5500.00",
+    "image": "menu/items/escargots.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 9,
+    "created_at": "2026-09-22T13:28:46.091Z",
+    "updated_at": "2026-09-22T15:33:19.744Z",
+    "discovery_tags": [
+      7,
+      8,
+      21,
+      22,
+      23,
+      16,
+      17,
+      15,
+      14,
+      3,
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 11,
+  "fields": {
+    "category": 10,
+    "name": "Pissaladière Bites",
+    "country": "French",
+    "rating": "4.6",
+    "slug": "pissaladiere-bites",
+    "description": "Caramelized onion tartlets with olives and herbs.",
+    "price": "3600.00",
+    "image": "menu/items/pissaladiere.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 10,
+    "created_at": "2026-09-22T15:36:23.360Z",
+    "updated_at": "2026-09-22T15:36:23.360Z",
+    "discovery_tags": [
+      7,
+      8,
+      6,
+      21,
+      22,
+      16,
+      17,
+      13,
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 12,
+  "fields": {
+    "category": 10,
+    "name": "Oeufs Mimosa",
+    "country": "French",
+    "rating": "4.5",
+    "slug": "oeufs-mimosa",
+    "description": "Classic French deviled eggs finished with delicate herbs.",
+    "price": "2900.00",
+    "image": "menu/items/oeufs-mimosa.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 11,
+    "created_at": "2026-09-22T15:38:36.711Z",
+    "updated_at": "2026-09-22T15:42:32.387Z",
+    "discovery_tags": [
+      7,
+      8,
+      22,
+      20,
+      24,
+      16,
+      17,
+      15,
+      14,
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 13,
+  "fields": {
+    "category": 10,
+    "name": "Salmon Rillettes Toast",
+    "country": "French",
+    "rating": "4.8",
+    "slug": "salmon-rillettes-toast",
+    "description": "Creamy seasoned salmon served on crisp toasted bread.",
+    "price": "4200.00",
+    "image": "menu/items/salmon-rillettes.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 12,
+    "created_at": "2026-09-22T15:42:25.526Z",
+    "updated_at": "2026-09-22T15:42:25.526Z",
+    "discovery_tags": [
+      10,
+      8,
+      22,
+      20,
+      23,
+      16,
+      17,
+      13,
+      14,
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 14,
+  "fields": {
+    "category": 10,
+    "name": "Foie Gras Toast",
+    "country": "French",
+    "rating": "4.9",
+    "slug": "foie-gras-toast",
+    "description": "Silky foie gras served over warm toasted brioche.",
+    "price": "6500.00",
+    "image": "menu/items/foie-gras-toast.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 13,
+    "created_at": "2026-09-22T15:45:25.333Z",
+    "updated_at": "2026-09-22T15:45:25.333Z",
+    "discovery_tags": [
+      8,
+      6,
+      23,
+      16,
+      15,
+      13,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 15,
+  "fields": {
+    "category": 10,
+    "name": "Cheese Palmiers",
+    "country": "French",
+    "rating": "4.4",
+    "slug": "cheese-palmiers",
+    "description": "Crispy puff pastry twists with rich French cheese.",
+    "price": "2800.00",
+    "image": "menu/items/cheese-palmiers.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 14,
+    "created_at": "2026-09-22T15:48:02.156Z",
+    "updated_at": "2026-09-22T15:48:02.156Z",
+    "discovery_tags": [
+      7,
+      8,
+      22,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 16,
+  "fields": {
+    "category": 10,
+    "name": "French Onion Tartlets",
+    "country": "French",
+    "rating": "4.6",
+    "slug": "french-onion-tartlets",
+    "description": "Buttery pastry filled with slow-cooked caramelized onions.",
+    "price": "3100.00",
+    "image": "menu/items/french-onion-tartlets.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 15,
+    "created_at": "2026-09-22T15:50:12.712Z",
+    "updated_at": "2026-09-22T15:50:12.712Z",
+    "discovery_tags": [
+      8,
+      6,
+      22,
+      16,
+      13,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 17,
+  "fields": {
+    "category": 10,
+    "name": "Fresh Guacamole",
+    "country": "Mexican",
+    "rating": "4.8",
+    "slug": "fresh-guacamole",
+    "description": "Creamy avocado mixed with lime, tomato, onion and herbs.",
+    "price": "2800.00",
+    "image": "menu/items/guacamole.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 10,
+    "display_order": 16,
+    "created_at": "2026-09-22T15:52:21.909Z",
+    "updated_at": "2026-09-22T15:52:21.909Z",
+    "discovery_tags": [
+      10,
+      24,
+      16,
+      11,
+      14,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 18,
+  "fields": {
+    "category": 10,
+    "name": "Queso Fundido",
+    "country": "Mexican",
+    "rating": "4.7",
+    "slug": "queso-fundido",
+    "description": "Melted cheese served hot with peppers and warm tortillas.",
+    "price": "3500.00",
+    "image": "menu/items/queso-fundido.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 15,
+    "display_order": 17,
+    "created_at": "2026-09-22T15:54:40.738Z",
+    "updated_at": "2026-09-22T15:54:40.738Z",
+    "discovery_tags": [
+      7,
+      8,
+      9,
+      20,
+      17,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 19,
+  "fields": {
+    "category": 10,
+    "name": "Esquites",
+    "country": "Mexican",
+    "rating": "4.6",
+    "slug": "esquites",
+    "description": "Mexican street corn with lime, cheese and chili.",
+    "price": "2500.00",
+    "image": "menu/items/esquites.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 15,
+    "display_order": 18,
+    "created_at": "2026-09-22T15:56:28.611Z",
+    "updated_at": "2026-09-22T15:56:28.611Z",
+    "discovery_tags": [
+      7,
+      8,
+      9,
+      22,
+      17,
+      11,
+      12,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 20,
+  "fields": {
+    "category": 10,
+    "name": "Mini Tostadas",
+    "country": "Mexican",
+    "rating": "4.8",
+    "slug": "mini-tostadas",
+    "description": "Crunchy tortillas topped with beans, salsa and fresh toppings.",
+    "price": "3200.00",
+    "image": "menu/items/mini-tostadas.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 15,
+    "display_order": 19,
+    "created_at": "2026-09-22T15:58:42.973Z",
+    "updated_at": "2026-09-22T15:58:42.973Z",
+    "discovery_tags": [
+      7,
+      8,
+      9,
+      21,
+      16,
+      11,
+      13,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 21,
+  "fields": {
+    "category": 10,
+    "name": "Chicken Taquitos",
+    "country": "Mexican",
+    "rating": "4.7",
+    "slug": "chicken-taquitos",
+    "description": "Crispy rolled tortillas filled with seasoned chicken.",
+    "price": "3400.00",
+    "image": "menu/items/chicken-taquitos.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 20,
+    "display_order": 20,
+    "created_at": "2026-09-22T16:01:35.801Z",
+    "updated_at": "2026-09-22T16:01:35.801Z",
+    "discovery_tags": [
+      7,
+      8,
+      9,
+      20,
+      17,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 22,
+  "fields": {
+    "category": 10,
+    "name": "Jalapeño Poppers",
+    "country": "Mexican",
+    "rating": "4.5",
+    "slug": "jalapeno-poppers",
+    "description": "Jalapeños filled with creamy cheese and crisped until golden.",
+    "price": "3000.00",
+    "image": "menu/items/jalapeno-poppers.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 20,
+    "display_order": 21,
+    "created_at": "2026-09-22T16:03:33.380Z",
+    "updated_at": "2026-09-22T16:03:33.380Z",
+    "discovery_tags": [
+      7,
+      8,
+      9,
+      20,
+      17,
+      13,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 23,
+  "fields": {
+    "category": 10,
+    "name": "Shrimp Ceviche",
+    "country": "Mexican",
+    "rating": "4.9",
+    "slug": "shrimp-ceviche",
+    "description": "Fresh shrimp tossed with lime, onion, tomato and cilantro.",
+    "price": "4500.00",
+    "image": "menu/items/shrimp-ceviche.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 22,
+    "created_at": "2026-09-22T16:05:44.423Z",
+    "updated_at": "2026-09-22T16:05:44.423Z",
+    "discovery_tags": [
+      10,
+      21,
+      16,
+      11,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 24,
+  "fields": {
+    "category": 10,
+    "name": "Elote Bites",
+    "country": "Mexican",
+    "rating": "4.6",
+    "slug": "elote-bites",
+    "description": "Sweet corn bites finished with chili, lime and creamy cheese.",
+    "price": "2700.00",
+    "image": "menu/items/elote-bites.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 23,
+    "created_at": "2026-09-22T17:03:25.426Z",
+    "updated_at": "2026-09-22T17:03:25.426Z",
+    "discovery_tags": [
+      8,
+      20,
+      16,
+      11,
+      12,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 25,
+  "fields": {
+    "category": 10,
+    "name": "Puff Puff",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "puff-puff",
+    "description": "Soft golden Nigerian dough balls with a lightly sweet finish.",
+    "price": "1800.00",
+    "image": "menu/items/puff-puff.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 24,
+    "created_at": "2026-09-22T17:05:39.820Z",
+    "updated_at": "2026-09-22T17:05:39.820Z",
+    "discovery_tags": [
+      6,
+      22,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 26,
+  "fields": {
+    "category": 10,
+    "name": "Suya Skewers",
+    "country": "Nigerian",
+    "rating": "4.9",
+    "slug": "suya-skewers",
+    "description": "Spiced grilled beef skewers with onions and fresh peppers.",
+    "price": "3500.00",
+    "image": "menu/items/suya-skewers.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 20,
+    "display_order": 25,
+    "created_at": "2026-09-22T17:09:37.553Z",
+    "updated_at": "2026-09-22T17:09:37.553Z",
+    "discovery_tags": [
+      8,
+      9,
+      22,
+      17,
+      13,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 27,
+  "fields": {
+    "category": 10,
+    "name": "Moi Moi",
+    "country": "Nigerian",
+    "rating": "4.7",
+    "slug": "moi-moi",
+    "description": "Steamed bean pudding seasoned with peppers and aromatic spices.",
+    "price": "2200.00",
+    "image": "menu/items/moi-moi.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 30,
+    "display_order": 26,
+    "created_at": "2026-09-22T17:15:38.445Z",
+    "updated_at": "2026-09-22T17:15:38.445Z",
+    "discovery_tags": [
+      8,
+      20,
+      17,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 28,
+  "fields": {
+    "category": 10,
+    "name": "Akara",
+    "country": "Nigerian",
+    "rating": "4.6",
+    "slug": "akara",
+    "description": "Crispy bean fritters with a soft and savory center.",
+    "price": "1800.00",
+    "image": "menu/items/akara_BhP0eTL.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 20,
+    "display_order": 27,
+    "created_at": "2026-09-22T17:20:29.516Z",
+    "updated_at": "2026-09-22T17:20:29.516Z",
+    "discovery_tags": [
+      7,
+      22,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 29,
+  "fields": {
+    "category": 10,
+    "name": "Meat Pie",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "meat-pie",
+    "description": "Flaky pastry filled with seasoned minced beef and vegetables.",
+    "price": "2500.00",
+    "image": "menu/items/meat-pie.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 28,
+    "created_at": "2026-09-22T17:28:14.310Z",
+    "updated_at": "2026-09-22T17:28:14.310Z",
+    "discovery_tags": [
+      7,
+      8,
+      20,
+      17,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 30,
+  "fields": {
+    "category": 10,
+    "name": "Chin Chin",
+    "country": "Nigerian",
+    "rating": "4.5",
+    "slug": "chin-chin",
+    "description": "Crunchy golden pastry bites with a lightly sweet flavor.",
+    "price": "1700.00",
+    "image": "menu/items/chin-chin.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 29,
+    "created_at": "2026-09-22T17:29:37.143Z",
+    "updated_at": "2026-09-22T17:29:37.143Z",
+    "discovery_tags": [
+      6,
+      24,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 31,
+  "fields": {
+    "category": 10,
+    "name": "Peppered Gizzard",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "peppered-gizzard",
+    "description": "Tender gizzard tossed in a rich spicy pepper sauce.",
+    "price": "3300.00",
+    "image": "menu/items/peppered-gizzard.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 25,
+    "display_order": 30,
+    "created_at": "2026-09-22T17:31:34.107Z",
+    "updated_at": "2026-09-22T17:31:34.107Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      17,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 32,
+  "fields": {
+    "category": 10,
+    "name": "Plantain Chips",
+    "country": "Nigerian",
+    "rating": "4.4",
+    "slug": "plantain-chips",
+    "description": "Thin crispy slices of ripe plantain with a savory crunch.",
+    "price": "1600.00",
+    "image": "menu/items/plantain-chips.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 31,
+    "created_at": "2026-09-22T17:33:11.215Z",
+    "updated_at": "2026-09-22T17:33:11.215Z",
+    "discovery_tags": [
+      7,
+      24,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 33,
+  "fields": {
+    "category": 13,
+    "name": "Crème Brûlée",
+    "country": "French",
+    "rating": "4.9",
+    "slug": "creme-brulee",
+    "description": "Silky vanilla custard topped with a crisp caramelized sugar crust.",
+    "price": "3500.00",
+    "image": "menu/items/creme-brulee.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 32,
+    "created_at": "2026-09-22T17:35:37.532Z",
+    "updated_at": "2026-09-22T17:35:37.532Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      15,
+      13,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 34,
+  "fields": {
+    "category": 13,
+    "name": "Chocolate Mousse",
+    "country": "French",
+    "rating": "4.8",
+    "slug": "chocolate-mousse",
+    "description": "Rich and airy French chocolate mousse with a smooth finish.",
+    "price": "3200.00",
+    "image": "menu/items/chocolate-mousse.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 33,
+    "created_at": "2026-09-22T17:37:05.750Z",
+    "updated_at": "2026-09-22T17:37:05.751Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      15,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 35,
+  "fields": {
+    "category": 13,
+    "name": "Tarte Tatin",
+    "country": "French",
+    "rating": "4.8",
+    "slug": "tarte-tatin",
+    "description": "Caramelized apple tart baked beneath golden flaky pastry.",
+    "price": "3800.00",
+    "image": "menu/items/tarte-tatin.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 34,
+    "created_at": "2026-09-22T17:38:53.879Z",
+    "updated_at": "2026-09-22T17:38:53.879Z",
+    "discovery_tags": [
+      6,
+      23,
+      17,
+      15,
+      13,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 36,
+  "fields": {
+    "category": 13,
+    "name": "French Macarons",
+    "country": "French",
+    "rating": "4.8",
+    "slug": "french-macarons",
+    "description": "Delicate almond meringue shells filled with smooth flavored cream.",
+    "price": "3000.00",
+    "image": "menu/items/macarons.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 35,
+    "created_at": "2026-09-22T17:40:52.554Z",
+    "updated_at": "2026-09-22T17:40:52.554Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      15,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 37,
+  "fields": {
+    "category": 13,
+    "name": "Profiteroles",
+    "country": "French",
+    "rating": "4.9",
+    "slug": "profiteroles",
+    "description": "Light choux pastry filled with cream and finished with chocolate sauce.",
+    "price": "3600.00",
+    "image": "menu/items/profiteroles.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 36,
+    "created_at": "2026-09-22T17:42:49.220Z",
+    "updated_at": "2026-09-22T17:42:49.220Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      15,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 38,
+  "fields": {
+    "category": 13,
+    "name": "Mille Feuille",
+    "country": "French",
+    "rating": "4.8",
+    "slug": "mille-feuille",
+    "description": "Layers of crisp pastry filled with delicate vanilla pastry cream.",
+    "price": "4000.00",
+    "image": "menu/items/mille-feuille.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 37,
+    "created_at": "2026-09-22T17:49:04.977Z",
+    "updated_at": "2026-09-22T17:49:04.977Z",
+    "discovery_tags": [
+      6,
+      23,
+      17,
+      15,
+      13,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 39,
+  "fields": {
+    "category": 13,
+    "name": "Cherry Clafoutis",
+    "country": "French",
+    "rating": "4.6",
+    "slug": "cherry-clafoutis",
+    "description": "Soft French baked custard filled with sweet seasonal cherries.",
+    "price": "3300.00",
+    "image": "menu/items/clafoutis.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 38,
+    "created_at": "2026-09-22T17:59:35.657Z",
+    "updated_at": "2026-09-22T17:59:35.657Z",
+    "discovery_tags": [
+      6,
+      22,
+      17,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 40,
+  "fields": {
+    "category": 13,
+    "name": "French Madeleines",
+    "country": "French",
+    "rating": "4.6",
+    "slug": "french-madeleines",
+    "description": "Buttery shell-shaped sponge cakes with a delicate golden crust.",
+    "price": "2800.00",
+    "image": "menu/items/madeleines.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 39,
+    "created_at": "2026-09-22T18:01:28.093Z",
+    "updated_at": "2026-09-22T18:01:28.093Z",
+    "discovery_tags": [
+      6,
+      22,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 41,
+  "fields": {
+    "category": 13,
+    "name": "Sweet Puff Puff",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "sweet-puff-puff",
+    "description": "Soft golden Nigerian dough bites dusted with sugar and served warm.",
+    "price": "1800.00",
+    "image": "menu/items/puff-puff-dessert.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 40,
+    "created_at": "2026-09-23T10:07:39.122Z",
+    "updated_at": "2026-09-23T10:07:39.123Z",
+    "discovery_tags": [
+      6,
+      20,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 42,
+  "fields": {
+    "category": 13,
+    "name": "Sweet Chin Chin",
+    "country": "Nigerian",
+    "rating": "4.7",
+    "slug": "sweet-chin-chin",
+    "description": "Crunchy golden pastry bites with a lightly sweet buttery flavor.",
+    "price": "1700.00",
+    "image": "menu/items/chin-chin-dessert.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 41,
+    "created_at": "2026-09-23T10:09:26.586Z",
+    "updated_at": "2026-09-23T10:09:26.586Z",
+    "discovery_tags": [
+      6,
+      24,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 43,
+  "fields": {
+    "category": 13,
+    "name": "Nigerian Coconut Candy",
+    "country": "Nigerian",
+    "rating": "4.6",
+    "slug": "nigerian-coconut-candy",
+    "description": "Sweet toasted coconut bites with a rich caramelized finish.",
+    "price": "2000.00",
+    "image": "menu/items/coconut-candy.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 42,
+    "created_at": "2026-09-23T10:11:23.131Z",
+    "updated_at": "2026-09-23T10:11:23.131Z",
+    "discovery_tags": [
+      6,
+      22,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 44,
+  "fields": {
+    "category": 13,
+    "name": "Nigerian Plantain Cake",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "nigerian-plantain-cake",
+    "description": "Moist spiced cake made with ripe plantains and warm aromatic spices.",
+    "price": "2800.00",
+    "image": "menu/items/plantain-cake.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 43,
+    "created_at": "2026-09-23T10:13:19.854Z",
+    "updated_at": "2026-09-23T10:13:19.854Z",
+    "discovery_tags": [
+      6,
+      20,
+      17,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 45,
+  "fields": {
+    "category": 13,
+    "name": "Sweet Nigerian Buns",
+    "country": "Nigerian",
+    "rating": "4.6",
+    "slug": "sweet-nigerian-buns",
+    "description": "Golden fried dough balls with a crisp exterior and soft sweet center.",
+    "price": "1800.00",
+    "image": "menu/items/nigerian-buns.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 44,
+    "created_at": "2026-09-23T10:15:16.366Z",
+    "updated_at": "2026-09-23T10:15:16.366Z",
+    "discovery_tags": [
+      6,
+      20,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 46,
+  "fields": {
+    "category": 13,
+    "name": "Bean Pudding",
+    "country": "Nigerian",
+    "rating": "4.5",
+    "slug": "bean-pudding",
+    "description": "Soft steamed bean pudding with a gently savory and comforting flavor.",
+    "price": "2200.00",
+    "image": "menu/items/akara-pudding.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 30,
+    "display_order": 45,
+    "created_at": "2026-09-23T10:16:53.819Z",
+    "updated_at": "2026-09-23T10:16:53.819Z",
+    "discovery_tags": [
+      8,
+      20,
+      17,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 47,
+  "fields": {
+    "category": 13,
+    "name": "Coconut Rice Pudding",
+    "country": "Nigerian",
+    "rating": "4.7",
+    "slug": "coconut-rice-pudding",
+    "description": "Creamy rice pudding cooked with coconut milk and aromatic spices.",
+    "price": "2600.00",
+    "image": "menu/items/coconut-rice-pudding.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 46,
+    "created_at": "2026-09-23T10:18:56.055Z",
+    "updated_at": "2026-09-23T10:18:56.055Z",
+    "discovery_tags": [
+      6,
+      20,
+      17,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 48,
+  "fields": {
+    "category": 13,
+    "name": "Tiger Nut Pudding",
+    "country": "Nigerian",
+    "rating": "4.6",
+    "slug": "tiger-nut-pudding",
+    "description": "Creamy tiger nut dessert with a naturally sweet nutty flavor.",
+    "price": "2700.00",
+    "image": "menu/items/tiger-nut-pudding.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 47,
+    "created_at": "2026-09-23T10:28:36.310Z",
+    "updated_at": "2026-09-23T10:28:36.310Z",
+    "discovery_tags": [
+      6,
+      22,
+      16,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 49,
+  "fields": {
+    "category": 13,
+    "name": "Matcha Mochi",
+    "country": "Japanese",
+    "rating": "4.8",
+    "slug": "matcha-mochi",
+    "description": "Soft chewy rice cakes filled with smooth sweet matcha cream.",
+    "price": "3000.00",
+    "image": "menu/items/matcha-mochi.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 48,
+    "created_at": "2026-09-23T10:30:35.431Z",
+    "updated_at": "2026-09-23T10:30:35.431Z",
+    "discovery_tags": [
+      6,
+      21,
+      16,
+      11,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 50,
+  "fields": {
+    "category": 13,
+    "name": "Dorayakid",
+    "country": "Japanese",
+    "rating": "4.7",
+    "slug": "dorayakid",
+    "description": "Fluffy Japanese pancakes filled with sweet red bean paste.",
+    "price": "2800.00",
+    "image": "menu/items/dorayaki.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 0,
+    "created_at": "2026-09-23T16:21:50.816Z",
+    "updated_at": "2026-09-23T16:21:50.816Z",
+    "discovery_tags": [
+      6,
+      21,
+      16,
+      15,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 51,
+  "fields": {
+    "category": 13,
+    "name": "Japanese Cheesecake",
+    "country": "Japanese",
+    "rating": "4.9",
+    "slug": "japanese-cheesecake",
+    "description": "Light and airy cheesecake with a delicate creamy texture.",
+    "price": "3500.00",
+    "image": "menu/items/japanese-cheesecake.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 50,
+    "created_at": "2026-09-23T16:23:52.213Z",
+    "updated_at": "2026-09-23T16:23:52.213Z",
+    "discovery_tags": [
+      6,
+      23,
+      17,
+      15,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 52,
+  "fields": {
+    "category": 13,
+    "name": "Matcha Roll Cake",
+    "country": "Japanese",
+    "rating": "4.8",
+    "slug": "matcha-roll-cake",
+    "description": "Soft matcha sponge rolled around lightly sweetened cream.",
+    "price": "3300.00",
+    "image": "menu/items/matcha-roll-cake.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 51,
+    "created_at": "2026-09-23T16:25:55.529Z",
+    "updated_at": "2026-09-23T16:25:55.529Z",
+    "discovery_tags": [
+      6,
+      23,
+      17,
+      15,
+      11,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 53,
+  "fields": {
+    "category": 13,
+    "name": "Anmitsu",
+    "country": "Japanese",
+    "rating": "4.6",
+    "slug": "anmitsu",
+    "description": "Japanese dessert of agar jelly, fruit, sweet beans and syrup.",
+    "price": "3200.00",
+    "image": "menu/items/anmitsu.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 34,
+    "created_at": "2026-09-23T16:28:11.715Z",
+    "updated_at": "2026-09-23T16:28:11.715Z",
+    "discovery_tags": [
+      10,
+      6,
+      21,
+      16,
+      11,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 54,
+  "fields": {
+    "category": 13,
+    "name": "Taiyaki",
+    "country": "Japanese",
+    "rating": "4.7",
+    "slug": "taiyaki",
+    "description": "Fish-shaped Japanese pastry filled with warm sweet red bean paste.",
+    "price": "2500.00",
+    "image": "menu/items/taiyaki.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 53,
+    "created_at": "2026-09-23T16:30:11.993Z",
+    "updated_at": "2026-09-23T16:30:11.993Z",
+    "discovery_tags": [
+      6,
+      21,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 55,
+  "fields": {
+    "category": 13,
+    "name": "Warabi Mochi",
+    "country": "Japanese",
+    "rating": "4.5",
+    "slug": "warabi-mochi",
+    "description": "Soft translucent rice cakes coated with roasted soybean powder.",
+    "price": "2700.00",
+    "image": "",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 54,
+    "created_at": "2026-09-23T16:32:02.476Z",
+    "updated_at": "2026-09-23T16:32:02.476Z",
+    "discovery_tags": [
+      6,
+      21,
+      16,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 56,
+  "fields": {
+    "category": 13,
+    "name": "Mitarashi Dango",
+    "country": "Japanese",
+    "rating": "4.7",
+    "slug": "mitarashi-dango",
+    "description": "Chewy rice dumplings glazed with a sweet savory soy sauce.",
+    "price": "2600.00",
+    "image": "menu/items/dango.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 55,
+    "created_at": "2026-09-23T16:34:41.084Z",
+    "updated_at": "2026-09-23T16:34:41.084Z",
+    "discovery_tags": [
+      6,
+      21,
+      16,
+      15,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 57,
+  "fields": {
+    "category": 13,
+    "name": "Gulab Jamun",
+    "country": "Indian",
+    "rating": "4.9",
+    "slug": "gulab-jamun",
+    "description": "Soft milk dumplings soaked in fragrant cardamom sugar syrup.",
+    "price": "2500.00",
+    "image": "menu/items/gulab-jamun.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 56,
+    "created_at": "2026-09-23T16:38:40.511Z",
+    "updated_at": "2026-09-23T16:38:40.511Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 58,
+  "fields": {
+    "category": 13,
+    "name": "Rasmalai",
+    "country": "Indian",
+    "rating": "4.8",
+    "slug": "rasmalai",
+    "description": "Soft cheese dumplings served in chilled saffron and cardamom milk.",
+    "price": "3200.00",
+    "image": "menu/items/rasmalai.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 57,
+    "created_at": "2026-09-23T16:41:19.438Z",
+    "updated_at": "2026-09-23T16:41:19.438Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      15,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 59,
+  "fields": {
+    "category": 13,
+    "name": "Jalebi",
+    "country": "Indian",
+    "rating": "4.7",
+    "slug": "jalebi",
+    "description": "Crispy golden spirals soaked in fragrant saffron sugar syrup.",
+    "price": "2300.00",
+    "image": "menu/items/jalebi.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 58,
+    "created_at": "2026-09-23T16:42:55.735Z",
+    "updated_at": "2026-09-23T16:42:55.735Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      11,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 60,
+  "fields": {
+    "category": 13,
+    "name": "Indian Kheer",
+    "country": "Indian",
+    "rating": "4.7",
+    "slug": "indian-kheer",
+    "description": "Creamy rice pudding cooked with milk, cardamom and fragrant nuts.",
+    "price": "2600.00",
+    "image": "menu/items/kheer.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 59,
+    "created_at": "2026-09-23T16:44:27.314Z",
+    "updated_at": "2026-09-23T16:44:27.314Z",
+    "discovery_tags": [
+      6,
+      20,
+      16,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 61,
+  "fields": {
+    "category": 13,
+    "name": "Gajar Halwa",
+    "country": "Indian",
+    "rating": "4.8",
+    "slug": "gajar-halwa",
+    "description": "Slow-cooked carrot pudding enriched with milk, cardamom and nuts.",
+    "price": "2800.00",
+    "image": "menu/items/gajar-halwa.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 60,
+    "created_at": "2026-09-23T16:47:36.345Z",
+    "updated_at": "2026-09-23T16:47:36.345Z",
+    "discovery_tags": [
+      6,
+      20,
+      17,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 62,
+  "fields": {
+    "category": 13,
+    "name": "Indian Kulfi",
+    "country": "Indian",
+    "rating": "4.9",
+    "slug": "indian-kulfi",
+    "description": "Rich traditional Indian frozen dessert flavored with cardamom and pistachio.",
+    "price": "3000.00",
+    "image": "menu/items/kulfi.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 61,
+    "created_at": "2026-09-23T16:49:16.202Z",
+    "updated_at": "2026-09-23T16:49:16.202Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      15,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 63,
+  "fields": {
+    "category": 13,
+    "name": "Besan Laddu",
+    "country": "Indian",
+    "rating": "4.6",
+    "slug": "besan-laddu",
+    "description": "Sweet roasted chickpea flour balls finished with cardamom and nuts.",
+    "price": "2400.00",
+    "image": "menu/items/laddu.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 62,
+    "created_at": "2026-09-23T16:51:47.044Z",
+    "updated_at": "2026-09-23T16:51:47.044Z",
+    "discovery_tags": [
+      6,
+      22,
+      16,
+      15,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 64,
+  "fields": {
+    "category": 13,
+    "name": "Kaju Barfi",
+    "country": "Indian",
+    "rating": "4.8",
+    "slug": "kaju-barfi",
+    "description": "Delicate cashew fudge with a smooth texture and subtle sweetness.",
+    "price": "2900.00",
+    "image": "menu/items/barfi.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 63,
+    "created_at": "2026-09-23T16:54:04.290Z",
+    "updated_at": "2026-09-23T16:54:04.290Z",
+    "discovery_tags": [
+      6,
+      22,
+      16,
+      15,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 65,
+  "fields": {
+    "category": 12,
+    "name": "Zobo",
+    "country": "Nigerian",
+    "rating": "4.9",
+    "slug": "zobo",
+    "description": "Refreshing hibiscus drink infused with ginger, pineapple and aromatic spices.",
+    "price": "1800.00",
+    "image": "menu/items/zobo.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 64,
+    "created_at": "2026-09-23T16:55:56.901Z",
+    "updated_at": "2026-09-23T16:55:56.901Z",
+    "discovery_tags": [
+      10,
+      6,
+      23,
+      16,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 66,
+  "fields": {
+    "category": 12,
+    "name": "Tiger Nut Drink",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "tiger-nut-drink",
+    "description": "Creamy and naturally sweet tiger nut drink served chilled and refreshing.",
+    "price": "2200.00",
+    "image": "menu/items/tiger-nut-drink.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 65,
+    "created_at": "2026-09-23T16:57:20.932Z",
+    "updated_at": "2026-09-23T16:57:20.932Z",
+    "discovery_tags": [
+      10,
+      23,
+      16,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 67,
+  "fields": {
+    "category": 12,
+    "name": "Kunu",
+    "country": "Nigerian",
+    "rating": "3.7",
+    "slug": "kunu",
+    "description": "Traditional Nigerian millet drink lightly spiced with ginger and sweetened.",
+    "price": "1800.00",
+    "image": "menu/items/kunu.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 66,
+    "created_at": "2026-09-23T16:59:04.310Z",
+    "updated_at": "2026-09-23T16:59:04.310Z",
+    "discovery_tags": [
+      10,
+      23,
+      16,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 68,
+  "fields": {
+    "category": 12,
+    "name": "Chapman",
+    "country": "Nigerian",
+    "rating": "4.9",
+    "slug": "chapman",
+    "description": "Classic Nigerian fruit cocktail blended with citrus, grenadine and bitters.",
+    "price": "2800.00",
+    "image": "menu/items/chapman.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 67,
+    "created_at": "2026-09-23T17:00:28.580Z",
+    "updated_at": "2026-09-23T17:00:28.580Z",
+    "discovery_tags": [
+      10,
+      6,
+      23,
+      16,
+      11,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 69,
+  "fields": {
+    "category": 12,
+    "name": "Palm Wine",
+    "country": "Nigerian",
+    "rating": "4.6",
+    "slug": "palm-wine",
+    "description": "Traditional Nigerian palm sap drink served chilled and naturally refreshing.",
+    "price": "2500.00",
+    "image": "menu/items/palm-wine.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 68,
+    "created_at": "2026-09-23T17:02:23.991Z",
+    "updated_at": "2026-09-23T17:02:23.991Z",
+    "discovery_tags": [
+      10,
+      22,
+      16,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 70,
+  "fields": {
+    "category": 12,
+    "name": "Kunu Aya",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "kunu-aya",
+    "description": "Smooth tiger nut and spice drink with a rich creamy texture.",
+    "price": "2300.00",
+    "image": "menu/items/kunu-aya.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 69,
+    "created_at": "2026-09-23T17:04:03.222Z",
+    "updated_at": "2026-09-23T17:04:03.222Z",
+    "discovery_tags": [
+      10,
+      24,
+      16,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 71,
+  "fields": {
+    "category": 12,
+    "name": "Ginger Drink",
+    "country": "Nigerian",
+    "rating": "4.7",
+    "slug": "ginger-drink",
+    "description": "Bold homemade ginger drink balanced with citrus and a touch of sweetness.",
+    "price": "1900.00",
+    "image": "menu/items/ginger-drink.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 5,
+    "display_order": 70,
+    "created_at": "2026-09-23T17:05:40.696Z",
+    "updated_at": "2026-09-28T22:14:18.447Z",
+    "discovery_tags": [
+      10,
+      9,
+      24,
+      16,
+      14,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 72,
+  "fields": {
+    "category": 12,
+    "name": "Tamarind Drink",
+    "country": "Nigerian",
+    "rating": "4.6",
+    "slug": "tamarind-drink",
+    "description": "Sweet and tangy tamarind beverage served chilled with aromatic spices.",
+    "price": "2000.00",
+    "image": "menu/items/tamarind-drink.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 71,
+    "created_at": "2026-09-23T17:07:13.970Z",
+    "updated_at": "2026-09-23T17:07:13.970Z",
+    "discovery_tags": [
+      10,
+      21,
+      16,
+      11,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 73,
+  "fields": {
+    "category": 12,
+    "name": "Espresso",
+    "country": "French",
+    "rating": "4.9",
+    "slug": "espresso",
+    "description": "Rich and intense Italian espresso with a smooth aromatic finish.",
+    "price": "1800.00",
+    "image": "menu/items/espresso.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 72,
+    "created_at": "2026-09-23T19:50:54.304Z",
+    "updated_at": "2026-09-23T19:50:54.304Z",
+    "discovery_tags": [
+      8,
+      24,
+      16,
+      14,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 74,
+  "fields": {
+    "category": 12,
+    "name": "Cappuccino",
+    "country": "French",
+    "rating": "4.9",
+    "slug": "cappuccino",
+    "description": "Classic Italian coffee topped with silky steamed milk and creamy foam.",
+    "price": "2500.00",
+    "image": "menu/items/cappuccino.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 73,
+    "created_at": "2026-09-23T19:53:57.001Z",
+    "updated_at": "2026-09-23T19:53:57.001Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      15,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 75,
+  "fields": {
+    "category": 12,
+    "name": "Caffè Latte",
+    "country": "French",
+    "rating": "4.8",
+    "slug": "caffe-latte",
+    "description": "Smooth espresso blended with steamed milk for a creamy balanced drink.",
+    "price": "2600.00",
+    "image": "menu/items/caffe-latte.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 74,
+    "created_at": "2026-09-23T21:42:01.080Z",
+    "updated_at": "2026-09-23T21:42:01.080Z",
+    "discovery_tags": [
+      6,
+      20,
+      16,
+      15,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 76,
+  "fields": {
+    "category": 12,
+    "name": "Affogato",
+    "country": "French",
+    "rating": "4.9",
+    "slug": "affogato",
+    "description": "Creamy vanilla gelato served with a shot of rich hot espresso.",
+    "price": "3200.00",
+    "image": "menu/items/affogato.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 75,
+    "created_at": "2026-09-23T21:44:41.511Z",
+    "updated_at": "2026-09-23T21:44:41.511Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      15,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 77,
+  "fields": {
+    "category": 12,
+    "name": "Italian Soda",
+    "country": "French",
+    "rating": "4.6",
+    "slug": "italian-soda",
+    "description": "Sparkling Italian-style soda blended with refreshing fruit syrup.",
+    "price": "2200.00",
+    "image": "menu/items/italian-soda.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 76,
+    "created_at": "2026-09-23T21:46:28.340Z",
+    "updated_at": "2026-09-23T21:46:28.340Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      11,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 78,
+  "fields": {
+    "category": 12,
+    "name": "Granita",
+    "country": "French",
+    "rating": "4.7",
+    "slug": "granita",
+    "description": "Refreshing semi-frozen Italian dessert drink with a light fruity flavor.",
+    "price": "2400.00",
+    "image": "menu/items/granita.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 10,
+    "display_order": 77,
+    "created_at": "2026-09-23T21:47:54.260Z",
+    "updated_at": "2026-09-28T22:14:44.107Z",
+    "discovery_tags": [
+      10,
+      21,
+      16,
+      11,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 79,
+  "fields": {
+    "category": 12,
+    "name": "Marocchino",
+    "country": "French",
+    "rating": "4.8",
+    "slug": "marocchino",
+    "description": "Espresso layered with cocoa and silky milk foam for a rich finish.",
+    "price": "2700.00",
+    "image": "menu/items/marocchino.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 78,
+    "created_at": "2026-09-23T21:49:28.729Z",
+    "updated_at": "2026-09-23T21:49:28.729Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      15,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 80,
+  "fields": {
+    "category": 12,
+    "name": "Caffè Shakerato",
+    "country": "French",
+    "rating": "4.8",
+    "slug": "caffe-shakerato",
+    "description": "Chilled espresso shaken until frothy and served refreshingly cold.",
+    "price": "2500.00",
+    "image": "menu/items/shakerato.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 79,
+    "created_at": "2026-09-23T21:51:11.830Z",
+    "updated_at": "2026-09-23T21:51:11.830Z",
+    "discovery_tags": [
+      6,
+      23,
+      16,
+      15,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 81,
+  "fields": {
+    "category": 12,
+    "name": "Classic Lemonade",
+    "country": "American",
+    "rating": "4.8",
+    "slug": "classic-lemonade",
+    "description": "Freshly squeezed lemonade balanced with natural sweetness and served chilled.",
+    "price": "1800.00",
+    "image": "menu/items/lemonade.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 80,
+    "created_at": "2026-09-23T21:53:09.953Z",
+    "updated_at": "2026-09-23T21:53:09.953Z",
+    "discovery_tags": [
+      10,
+      24,
+      16,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 82,
+  "fields": {
+    "category": 12,
+    "name": "Iced Tea",
+    "country": "American",
+    "rating": "4.7",
+    "slug": "iced-tea",
+    "description": "Refreshing brewed iced tea lightly sweetened and served over ice.",
+    "price": "1800.00",
+    "image": "menu/items/iced-tea.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 81,
+    "created_at": "2026-09-23T21:54:35.965Z",
+    "updated_at": "2026-09-23T21:54:35.965Z",
+    "discovery_tags": [
+      10,
+      24,
+      16,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 83,
+  "fields": {
+    "category": 12,
+    "name": "Classic Milkshake",
+    "country": "American",
+    "rating": "4.9",
+    "slug": "classic-milkshake",
+    "description": "Thick creamy milkshake blended with ice cream and finished with whipped cream.",
+    "price": "3200.00",
+    "image": "menu/items/milkshake.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 10,
+    "display_order": 82,
+    "created_at": "2026-09-23T21:56:27.992Z",
+    "updated_at": "2026-09-23T21:56:27.993Z",
+    "discovery_tags": [
+      6,
+      20,
+      17,
+      15,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 84,
+  "fields": {
+    "category": 12,
+    "name": "Root Beer Float",
+    "country": "American",
+    "rating": "4.8",
+    "slug": "root-beer-float",
+    "description": "Classic root beer topped with creamy vanilla ice cream.",
+    "price": "3000.00",
+    "image": "menu/items/root-beer-float.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 83,
+    "created_at": "2026-09-23T21:57:59.659Z",
+    "updated_at": "2026-09-23T21:57:59.660Z",
+    "discovery_tags": [
+      6,
+      20,
+      17,
+      15,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 85,
+  "fields": {
+    "category": 12,
+    "name": "Apple Cider",
+    "country": "American",
+    "rating": "4.7",
+    "slug": "apple-cider",
+    "description": "Sweet apple cider infused with warm cinnamon and aromatic spices.",
+    "price": "2300.00",
+    "image": "menu/items/apple-cider.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 84,
+    "created_at": "2026-09-23T21:59:29.013Z",
+    "updated_at": "2026-09-23T21:59:29.013Z",
+    "discovery_tags": [
+      10,
+      22,
+      16,
+      11,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 86,
+  "fields": {
+    "category": 12,
+    "name": "Hot Chocolate",
+    "country": "American",
+    "rating": "4.9",
+    "slug": "hot-chocolate",
+    "description": "Rich creamy chocolate drink topped with soft whipped cream.",
+    "price": "2600.00",
+    "image": "menu/items/hot-chocolate.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 10,
+    "display_order": 85,
+    "created_at": "2026-09-23T22:01:06.738Z",
+    "updated_at": "2026-09-23T22:01:06.738Z",
+    "discovery_tags": [
+      6,
+      20,
+      17,
+      15,
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 87,
+  "fields": {
+    "category": 12,
+    "name": "Iced Coffee",
+    "country": "American",
+    "rating": "4.8",
+    "slug": "iced-coffee",
+    "description": "Smooth chilled coffee served over ice with creamy milk.",
+    "price": "2500.00",
+    "image": "menu/items/iced-coffee.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 86,
+    "created_at": "2026-09-23T22:02:18.362Z",
+    "updated_at": "2026-09-23T22:02:18.362Z",
+    "discovery_tags": [
+      8,
+      24,
+      16,
+      14,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 88,
+  "fields": {
+    "category": 12,
+    "name": "Strawberry Lemonade",
+    "country": "American",
+    "rating": "4.9",
+    "slug": "strawberry-lemonade",
+    "description": "Fresh lemonade blended with sweet strawberries for a fruity finish.",
+    "price": "2400.00",
+    "image": "menu/items/strawberry-lemonade.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 5,
+    "display_order": 87,
+    "created_at": "2026-09-23T22:03:50.480Z",
+    "updated_at": "2026-09-23T22:03:50.480Z",
+    "discovery_tags": [
+      10,
+      6,
+      23,
+      16,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 89,
+  "fields": {
+    "category": 9,
+    "name": "Croquetas de Jamón",
+    "country": "Spanish",
+    "rating": "4.8",
+    "slug": "croquetas-de-jamon",
+    "description": "Crispy Spanish ham croquettes with a creamy savory center.",
+    "price": "3200.00",
+    "image": "menu/items/croquetas-jamon.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 88,
+    "created_at": "2026-09-23T22:06:16.065Z",
+    "updated_at": "2026-09-23T22:06:16.065Z",
+    "discovery_tags": [
+      8,
+      22,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 90,
+  "fields": {
+    "category": 9,
+    "name": "Patatas Bravas",
+    "country": "Spanish",
+    "rating": "4.7",
+    "slug": "patatas-bravas",
+    "description": "Crispy potatoes served with bold Spanish bravas sauce.",
+    "price": "2800.00",
+    "image": "menu/items/patatas-bravas.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 20,
+    "display_order": 89,
+    "created_at": "2026-09-23T22:08:22.186Z",
+    "updated_at": "2026-09-23T22:08:22.186Z",
+    "discovery_tags": [
+      7,
+      9,
+      20,
+      17,
+      13,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 91,
+  "fields": {
+    "category": 9,
+    "name": "Gambas al Ajillo",
+    "country": "Spanish",
+    "rating": "4.9",
+    "slug": "gambas-al-ajillo",
+    "description": "Juicy prawns sautéed with garlic, olive oil and chili.",
+    "price": "4800.00",
+    "image": "menu/items/gambas-ajillo.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 15,
+    "display_order": 90,
+    "created_at": "2026-09-23T22:10:07.236Z",
+    "updated_at": "2026-09-23T22:10:07.236Z",
+    "discovery_tags": [
+      8,
+      9,
+      22,
+      16,
+      14,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 92,
+  "fields": {
+    "category": 9,
+    "name": "Pimientos de Padrón",
+    "country": "Spanish",
+    "rating": "4.6",
+    "slug": "pimientos-de-padron",
+    "description": "Blistered Spanish peppers finished with olive oil and sea salt.",
+    "price": "2600.00",
+    "image": "menu/items/pimientos-padron.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 10,
+    "display_order": 91,
+    "created_at": "2026-09-23T22:11:36.307Z",
+    "updated_at": "2026-09-23T22:11:36.307Z",
+    "discovery_tags": [
+      7,
+      24,
+      16,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 93,
+  "fields": {
+    "category": 9,
+    "name": "Tortilla Española Bites",
+    "country": "Spanish",
+    "rating": "4.7",
+    "slug": "tortilla-espanola-bites",
+    "description": "Classic Spanish potato and egg omelette served in bite-sized portions.",
+    "price": "3000.00",
+    "image": "menu/items/tortilla-espanola.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 92,
+    "created_at": "2026-09-23T22:13:04.796Z",
+    "updated_at": "2026-09-23T22:13:04.796Z",
+    "discovery_tags": [
+      8,
+      22,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 94,
+  "fields": {
+    "category": 9,
+    "name": "Boquerones en Vinagre",
+    "country": "Spanish",
+    "rating": "4.5",
+    "slug": "boquerones-en-vinagre",
+    "description": "Delicate marinated anchovies finished with garlic and fresh herbs.",
+    "price": "3500.00",
+    "image": "menu/items/boquerones.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 10,
+    "display_order": 93,
+    "created_at": "2026-09-23T22:16:56.059Z",
+    "updated_at": "2026-09-23T22:16:56.059Z",
+    "discovery_tags": [
+      10,
+      7,
+      21,
+      16,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 95,
+  "fields": {
+    "category": 9,
+    "name": "Calamares Fritos",
+    "country": "Spanish",
+    "rating": "4.8",
+    "slug": "calamares-fritos",
+    "description": "Lightly battered fried calamari served crisp and golden.",
+    "price": "4200.00",
+    "image": "menu/items/calamares-fritos.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 94,
+    "created_at": "2026-09-23T22:18:43.823Z",
+    "updated_at": "2026-09-23T22:18:43.823Z",
+    "discovery_tags": [
+      7,
+      8,
+      20,
+      17,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 96,
+  "fields": {
+    "category": 9,
+    "name": "Chorizo al Vino",
+    "country": "Spanish",
+    "rating": "4.7",
+    "slug": "chorizo-al-vino",
+    "description": "Spanish chorizo slowly cooked with herbs and rich wine sauce.",
+    "price": "3900.00",
+    "image": "menu/items/chorizo-al-vino.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 95,
+    "created_at": "2026-09-23T22:20:35.331Z",
+    "updated_at": "2026-09-23T22:20:35.331Z",
+    "discovery_tags": [
+      7,
+      8,
+      22,
+      17,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 97,
+  "fields": {
+    "category": 9,
+    "name": "Bruschetta al Pomodoro",
+    "country": "Italian",
+    "rating": "4.8",
+    "slug": "bruschetta-al-pomodoro",
+    "description": "Toasted bread topped with fresh tomatoes, basil and olive oil.",
+    "price": "2800.00",
+    "image": "menu/items/bruschetta.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 10,
+    "display_order": 96,
+    "created_at": "2026-09-23T22:22:24.750Z",
+    "updated_at": "2026-09-23T22:22:24.750Z",
+    "discovery_tags": [
+      10,
+      8,
+      22,
+      16,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 98,
+  "fields": {
+    "category": 9,
+    "name": "Arancini",
+    "country": "Italian",
+    "rating": "4.9",
+    "slug": "arancini",
+    "description": "Golden crispy risotto balls filled with cheese and savory herbs.",
+    "price": "3500.00",
+    "image": "menu/items/arancini.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 10,
+    "display_order": 96,
+    "created_at": "2026-09-23T22:24:16.199Z",
+    "updated_at": "2026-09-23T22:26:30.415Z",
+    "discovery_tags": [
+      8,
+      20,
+      17,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 99,
+  "fields": {
+    "category": 9,
+    "name": "Fritto Misto",
+    "country": "Italian",
+    "rating": "4.7",
+    "slug": "fritto-misto",
+    "description": "Lightly fried seafood and vegetables served with lemon.",
+    "price": "4800.00",
+    "image": "menu/items/fritto-misto.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 98,
+    "created_at": "2026-09-23T22:29:26.492Z",
+    "updated_at": "2026-09-23T22:29:26.492Z",
+    "discovery_tags": [
+      7,
+      8,
+      21,
+      17,
+      13,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 100,
+  "fields": {
+    "category": 9,
+    "name": "Caprese Skewers",
+    "country": "Italian",
+    "rating": "4.6",
+    "slug": "caprese-skewers",
+    "description": "Fresh mozzarella, cherry tomatoes and basil finished with balsamic.",
+    "price": "3000.00",
+    "image": "menu/items/caprese-skewers.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 10,
+    "display_order": 99,
+    "created_at": "2026-09-23T22:31:06.762Z",
+    "updated_at": "2026-09-23T22:31:06.762Z",
+    "discovery_tags": [
+      10,
+      24,
+      16,
+      11,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 101,
+  "fields": {
+    "category": 9,
+    "name": "Polpette al Sugo",
+    "country": "Italian",
+    "rating": "4.8",
+    "slug": "polpette-al-sugo",
+    "description": "Tender Italian meatballs served in a rich tomato and herb sauce.",
+    "price": "3800.00",
+    "image": "menu/items/polpette-al-sugo.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 100,
+    "created_at": "2026-09-23T22:33:08.362Z",
+    "updated_at": "2026-09-23T22:33:08.362Z",
+    "discovery_tags": [
+      8,
+      20,
+      17,
+      12,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 102,
+  "fields": {
+    "category": 9,
+    "name": "Mozzarella in Carrozza",
+    "country": "Italian",
+    "rating": "4.7",
+    "slug": "mozzarella-in-carrozza",
+    "description": "Crispy fried mozzarella sandwiches with a rich melted center.",
+    "price": "3300.00",
+    "image": "menu/items/mozzarella-in-carrozza.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 101,
+    "created_at": "2026-09-23T22:34:54.387Z",
+    "updated_at": "2026-09-23T22:34:54.387Z",
+    "discovery_tags": [
+      8,
+      20,
+      17,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 103,
+  "fields": {
+    "category": 9,
+    "name": "Italian Stuffed Mushrooms",
+    "country": "Italian",
+    "rating": "4.5",
+    "slug": "italian-stuffed-mushrooms",
+    "description": "Baked mushrooms filled with herbs, breadcrumbs and parmesan.",
+    "price": "3200.00",
+    "image": "menu/items/stuffed-mushrooms.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 102,
+    "created_at": "2026-09-23T22:36:34.323Z",
+    "updated_at": "2026-09-23T22:36:34.324Z",
+    "discovery_tags": [
+      8,
+      20,
+      16,
+      15,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 104,
+  "fields": {
+    "category": 9,
+    "name": "Italian Fried Calamari",
+    "country": "Italian",
+    "rating": "4.8",
+    "slug": "italian-fried-calamari",
+    "description": "Crispy golden calamari served with lemon and a light dipping sauce.",
+    "price": "4500.00",
+    "image": "menu/items/italian-fried-calamari.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 103,
+    "created_at": "2026-09-23T22:38:09.011Z",
+    "updated_at": "2026-09-23T22:38:09.011Z",
+    "discovery_tags": [
+      7,
+      8,
+      22,
+      17,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 105,
+  "fields": {
+    "category": 9,
+    "name": "Gyoza",
+    "country": "Japanese",
+    "rating": "4.9",
+    "slug": "gyoza",
+    "description": "Pan-fried Japanese dumplings filled with seasoned meat and vegetables.",
+    "price": "3500.00",
+    "image": "menu/items/gyoza.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 104,
+    "created_at": "2026-09-23T22:39:42.758Z",
+    "updated_at": "2026-09-23T22:39:42.758Z",
+    "discovery_tags": [
+      8,
+      21,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 106,
+  "fields": {
+    "category": 9,
+    "name": "Edamame",
+    "country": "Japanese",
+    "rating": "4.5",
+    "slug": "edamame",
+    "description": "Steamed young soybeans finished with sea salt.",
+    "price": "2200.00",
+    "image": "menu/items/edamame.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 10,
+    "display_order": 105,
+    "created_at": "2026-09-23T22:41:05.096Z",
+    "updated_at": "2026-09-23T22:41:05.096Z",
+    "discovery_tags": [
+      10,
+      24,
+      16,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 107,
+  "fields": {
+    "category": 9,
+    "name": "Agedashi Tofu",
+    "country": "Japanese",
+    "rating": "4.6",
+    "slug": "agedashi-tofu",
+    "description": "Crispy tofu served with warm Japanese dashi broth and herbs.",
+    "price": "3000.00",
+    "image": "menu/items/agedashi-tofu.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 106,
+    "created_at": "2026-09-23T22:42:42.975Z",
+    "updated_at": "2026-09-23T22:42:42.975Z",
+    "discovery_tags": [
+      8,
+      20,
+      16,
+      13,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 108,
+  "fields": {
+    "category": 9,
+    "name": "Takoyaki",
+    "country": "Japanese",
+    "rating": "4.8",
+    "slug": "takoyaki",
+    "description": "Golden octopus-filled balls topped with Japanese sauce and bonito flakes.",
+    "price": "3200.00",
+    "image": "menu/items/takoyaki.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 107,
+    "created_at": "2026-09-23T22:44:04.996Z",
+    "updated_at": "2026-09-23T22:44:04.996Z",
+    "discovery_tags": [
+      8,
+      21,
+      16,
+      15,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 109,
+  "fields": {
+    "category": 9,
+    "name": "Chicken Karaage",
+    "country": "Japanese",
+    "rating": "4.9",
+    "slug": "chicken-karaage",
+    "description": "Japanese-style crispy fried chicken marinated with ginger and soy.",
+    "price": "4200.00",
+    "image": "menu/items/chicken-karaage.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 108,
+    "created_at": "2026-09-23T22:45:51.303Z",
+    "updated_at": "2026-09-23T22:45:51.303Z",
+    "discovery_tags": [
+      8,
+      20,
+      17,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 110,
+  "fields": {
+    "category": 9,
+    "name": "Ebi Tempura",
+    "country": "Japanese",
+    "rating": "4.8",
+    "slug": "ebi-tempura",
+    "description": "Lightly battered prawns fried until crisp and delicate.",
+    "price": "4500.00",
+    "image": "menu/items/ebi-tempura.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 109,
+    "created_at": "2026-09-23T22:47:26.355Z",
+    "updated_at": "2026-09-23T22:47:26.355Z",
+    "discovery_tags": [
+      7,
+      8,
+      22,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 111,
+  "fields": {
+    "category": 9,
+    "name": "Yakitori",
+    "country": "Japanese",
+    "rating": "4.7",
+    "slug": "yakitori",
+    "description": "Grilled chicken skewers glazed with savory Japanese tare sauce.",
+    "price": "3800.00",
+    "image": "menu/items/yakitori.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 10,
+    "display_order": 110,
+    "created_at": "2026-09-23T22:48:41.817Z",
+    "updated_at": "2026-09-23T22:48:41.817Z",
+    "discovery_tags": [
+      8,
+      22,
+      17,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 112,
+  "fields": {
+    "category": 9,
+    "name": "Harumaki",
+    "country": "Japanese",
+    "rating": "4.6",
+    "slug": "harumaki",
+    "description": "Crispy Japanese spring rolls filled with vegetables and seasoned meat.",
+    "price": "3000.00",
+    "image": "",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 15,
+    "display_order": 111,
+    "created_at": "2026-09-23T22:50:00.809Z",
+    "updated_at": "2026-09-23T22:50:00.809Z",
+    "discovery_tags": [
+      8,
+      22,
+      16,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 113,
+  "fields": {
+    "category": 9,
+    "name": "Asun",
+    "country": "Nigerian",
+    "rating": "4.9",
+    "slug": "asun",
+    "description": "Smoky grilled goat meat tossed with hot peppers and onions.",
+    "price": "4500.00",
+    "image": "menu/items/asun.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 25,
+    "display_order": 112,
+    "created_at": "2026-09-23T22:52:58.559Z",
+    "updated_at": "2026-09-23T22:52:58.559Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      17,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 114,
+  "fields": {
+    "category": 9,
+    "name": "Peppered Snail",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "peppered-snail",
+    "description": "Tender snails sautéed in a rich and spicy Nigerian pepper sauce.",
+    "price": "6500.00",
+    "image": "menu/items/peppered-snail.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 25,
+    "display_order": 113,
+    "created_at": "2026-09-23T22:54:37.510Z",
+    "updated_at": "2026-09-23T22:54:37.510Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      17,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 115,
+  "fields": {
+    "category": 9,
+    "name": "Peppered Gizzard",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "peppered-gizzard2",
+    "description": "Tender gizzard tossed with peppers, onions and aromatic spices.",
+    "price": "4000.00",
+    "image": "menu/items/peppered-gizzard_OZuPNzL.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 25,
+    "display_order": 114,
+    "created_at": "2026-09-23T22:56:20.700Z",
+    "updated_at": "2026-09-23T22:56:20.700Z",
+    "discovery_tags": [
+      8,
+      9,
+      20,
+      17,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 116,
+  "fields": {
+    "category": 9,
+    "name": "Gizdodo",
+    "country": "Nigerian",
+    "rating": "4.9",
+    "slug": "gizdodo",
+    "description": "Peppered gizzard and fried plantain tossed in a rich spicy sauce.",
+    "price": "4500.00",
+    "image": "menu/items/gizdodo.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 25,
+    "display_order": 115,
+    "created_at": "2026-09-23T22:57:47.932Z",
+    "updated_at": "2026-09-23T22:57:47.932Z",
+    "discovery_tags": [
+      8,
+      9,
+      20,
+      17,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 117,
+  "fields": {
+    "category": 9,
+    "name": "Nigerian Beef Suya",
+    "country": "Nigerian",
+    "rating": "4.9",
+    "slug": "nigerian-beef-suya",
+    "description": "Grilled beef skewers coated in traditional suya spice and served with onions.",
+    "price": "4200.00",
+    "image": "menu/items/beef-suya.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 20,
+    "display_order": 116,
+    "created_at": "2026-09-23T22:59:37.667Z",
+    "updated_at": "2026-09-23T22:59:37.668Z",
+    "discovery_tags": [
+      8,
+      9,
+      22,
+      17,
+      13,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 118,
+  "fields": {
+    "category": 9,
+    "name": "Nkwobi",
+    "country": "Nigerian",
+    "rating": "4.7",
+    "slug": "nkwobi",
+    "description": "Tender cow foot prepared in a rich and spicy palm-oil sauce.",
+    "price": "5500.00",
+    "image": "menu/items/nkwobi.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 30,
+    "display_order": 117,
+    "created_at": "2026-09-23T23:01:04.527Z",
+    "updated_at": "2026-09-23T23:01:04.527Z",
+    "discovery_tags": [
+      8,
+      9,
+      20,
+      17,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 119,
+  "fields": {
+    "category": 9,
+    "name": "Isi Ewu",
+    "country": "Nigerian",
+    "rating": "4.7",
+    "slug": "isi-ewu",
+    "description": "Traditional spicy goat-head delicacy prepared with aromatic Nigerian spices.",
+    "price": "6000.00",
+    "image": "menu/items/isi-ewu.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 30,
+    "display_order": 118,
+    "created_at": "2026-09-23T23:02:27.822Z",
+    "updated_at": "2026-09-23T23:02:27.822Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      17,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 120,
+  "fields": {
+    "category": 9,
+    "name": "Peppered Chicken",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "peppered-chicken",
+    "description": "Juicy grilled chicken tossed in a bold Nigerian pepper sauce.",
+    "price": "4500.00",
+    "image": "menu/items/peppered-chicken.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 25,
+    "display_order": 119,
+    "created_at": "2026-09-23T23:04:07.895Z",
+    "updated_at": "2026-09-23T23:04:07.895Z",
+    "discovery_tags": [
+      8,
+      9,
+      20,
+      17,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 121,
+  "fields": {
+    "category": 11,
+    "name": "Jollof Rice",
+    "country": "Nigerian",
+    "rating": "5.0",
+    "slug": "jollof-rice",
+    "description": "Fragrant long-grain rice cooked in a rich tomato and pepper sauce.",
+    "price": "4500.00",
+    "image": "menu/items/jollof-rice.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 30,
+    "display_order": 120,
+    "created_at": "2026-09-23T23:06:12.435Z",
+    "updated_at": "2026-09-23T23:07:05.636Z",
+    "discovery_tags": [
+      8,
+      20,
+      18,
+      11,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 122,
+  "fields": {
+    "category": 11,
+    "name": "Nigerian Fried Rice",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "nigerian-fried-rice",
+    "description": "Seasoned fried rice prepared with vegetables and savory Nigerian spices.",
+    "price": "4800.00",
+    "image": "menu/items/nigerian-fried-rice.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 30,
+    "display_order": 121,
+    "created_at": "2026-09-23T23:09:18.187Z",
+    "updated_at": "2026-09-23T23:09:18.187Z",
+    "discovery_tags": [
+      8,
+      22,
+      18,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 123,
+  "fields": {
+    "category": 11,
+    "name": "Amala & Efo Riro",
+    "country": "Nigerian",
+    "rating": "4.9",
+    "slug": "amala-efo-riro",
+    "description": "Smooth amala served with rich Yoruba-style vegetable and pepper soup.",
+    "price": "5000.00",
+    "image": "menu/items/amala-efo-riro.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 30,
+    "display_order": 122,
+    "created_at": "2026-09-23T23:11:04.245Z",
+    "updated_at": "2026-09-23T23:11:04.245Z",
+    "discovery_tags": [
+      8,
+      9,
+      20,
+      18,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 124,
+  "fields": {
+    "category": 11,
+    "name": "Pounded Yam & Egusi",
+    "country": "Nigerian",
+    "rating": "4.9",
+    "slug": "pounded-yam-egusi",
+    "description": "Soft pounded yam served with rich egusi soup and assorted protein.",
+    "price": "5500.00",
+    "image": "menu/items/pounded-yam-egusi.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 35,
+    "display_order": 123,
+    "created_at": "2026-09-23T23:13:01.417Z",
+    "updated_at": "2026-09-23T23:13:01.417Z",
+    "discovery_tags": [
+      8,
+      9,
+      20,
+      18,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 125,
+  "fields": {
+    "category": 11,
+    "name": "Ofada Rice & Ayamase",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "ofada-rice-ayamase",
+    "description": "Local Ofada rice served with smoky green pepper sauce and assorted meat.",
+    "price": "5200.00",
+    "image": "menu/items/ofada-rice-ayamase.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 30,
+    "display_order": 124,
+    "created_at": "2026-09-23T23:15:13.723Z",
+    "updated_at": "2026-09-23T23:15:23.073Z",
+    "discovery_tags": [
+      8,
+      9,
+      22,
+      19,
+      18,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 126,
+  "fields": {
+    "category": 11,
+    "name": "Beans & Fried Plantain",
+    "country": "Nigerian",
+    "rating": "4.7",
+    "slug": "beans-fried-plantain",
+    "description": "Slow-cooked beans paired with sweet golden fried plantain.",
+    "price": "4000.00",
+    "image": "menu/items/beans-plantain.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 30,
+    "display_order": 125,
+    "created_at": "2026-09-23T23:17:24.118Z",
+    "updated_at": "2026-09-23T23:17:24.118Z",
+    "discovery_tags": [
+      8,
+      20,
+      18,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 127,
+  "fields": {
+    "category": 11,
+    "name": "Eba & Okra Soup",
+    "country": "Nigerian",
+    "rating": "4.8",
+    "slug": "eba-okra-soup",
+    "description": "Cassava-based eba served with hearty Nigerian okra soup.",
+    "price": "4800.00",
+    "image": "menu/items/eba-okra-soup.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 30,
+    "display_order": 126,
+    "created_at": "2026-09-23T23:19:19.067Z",
+    "updated_at": "2026-09-23T23:19:19.067Z",
+    "discovery_tags": [
+      8,
+      20,
+      18,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 128,
+  "fields": {
+    "category": 11,
+    "name": "White Rice & Stew",
+    "country": "Japanese",
+    "rating": "1.8",
+    "slug": "white-rice-stew",
+    "description": "Steamed white rice served with rich Nigerian tomato pepper stew.",
+    "price": "4500.00",
+    "image": "menu/items/white-rice-nigerian-stew.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 25,
+    "display_order": 127,
+    "created_at": "2026-09-23T23:21:42.364Z",
+    "updated_at": "2026-09-23T23:21:42.364Z",
+    "discovery_tags": [
+      8,
+      20,
+      18,
+      12,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 129,
+  "fields": {
+    "category": 11,
+    "name": "Classic Cheeseburger",
+    "country": "American",
+    "rating": "4.9",
+    "slug": "classic-cheeseburger",
+    "description": "Juicy beef burger with melted cheese, lettuce, tomato and house sauce.",
+    "price": "6500.00",
+    "image": "menu/items/classic-cheeseburger.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 128,
+    "created_at": "2026-09-23T23:24:33.598Z",
+    "updated_at": "2026-09-23T23:24:33.598Z",
+    "discovery_tags": [
+      8,
+      22,
+      19,
+      18,
+      12,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 130,
+  "fields": {
+    "category": 11,
+    "name": "BBQ Ribs",
+    "country": "American",
+    "rating": "4.9",
+    "slug": "bbq-ribs",
+    "description": "Slow-cooked ribs glazed with smoky house barbecue sauce.",
+    "price": "8500.00",
+    "image": "menu/items/bbq-ribs.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 35,
+    "display_order": 129,
+    "created_at": "2026-09-23T23:26:45.616Z",
+    "updated_at": "2026-09-23T23:26:45.616Z",
+    "discovery_tags": [
+      8,
+      6,
+      23,
+      18,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 131,
+  "fields": {
+    "category": 11,
+    "name": "Southern Fried Chicken",
+    "country": "American",
+    "rating": "4.8",
+    "slug": "southern-fried-chicken",
+    "description": "Crispy golden chicken seasoned with classic Southern spices.",
+    "price": "6500.00",
+    "image": "menu/items/fried-chicken.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 130,
+    "created_at": "2026-09-23T23:28:27.285Z",
+    "updated_at": "2026-09-23T23:29:13.815Z",
+    "discovery_tags": [
+      7,
+      8,
+      22,
+      19,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 132,
+  "fields": {
+    "category": 11,
+    "name": "Chicken & Waffles",
+    "country": "American",
+    "rating": "4.8",
+    "slug": "chicken-waffles",
+    "description": "Crispy fried chicken served over fluffy Belgian-style waffles.",
+    "price": "7000.00",
+    "image": "menu/items/chicken-waffles.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 131,
+    "created_at": "2026-09-23T23:30:49.428Z",
+    "updated_at": "2026-09-23T23:30:49.429Z",
+    "discovery_tags": [
+      8,
+      6,
+      20,
+      18,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 133,
+  "fields": {
+    "category": 11,
+    "name": "Mac & Cheese",
+    "country": "American",
+    "rating": "4.7",
+    "slug": "mac-cheese",
+    "description": "Creamy baked macaroni with a rich blend of melted cheeses.",
+    "price": "5000.00",
+    "image": "menu/items/mac-and-cheese.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 132,
+    "created_at": "2026-09-23T23:32:13.933Z",
+    "updated_at": "2026-09-23T23:32:13.933Z",
+    "discovery_tags": [
+      8,
+      20,
+      17,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 134,
+  "fields": {
+    "category": 11,
+    "name": "New York Strip Steak",
+    "country": "American",
+    "rating": "4.8",
+    "slug": "new-york-strip-steak",
+    "description": "Tender grilled strip steak finished with herbs and butter.",
+    "price": "12000.00",
+    "image": "menu/items/new-york-strip.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 133,
+    "created_at": "2026-09-23T23:33:54.071Z",
+    "updated_at": "2026-09-23T23:33:54.071Z",
+    "discovery_tags": [
+      8,
+      23,
+      18,
+      15,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 135,
+  "fields": {
+    "category": 11,
+    "name": "American Grilled Chicken",
+    "country": "American",
+    "rating": "4.7",
+    "slug": "american-grilled-chicken",
+    "description": "Juicy grilled chicken breast seasoned with herbs and spices.",
+    "price": "7000.00",
+    "image": "menu/items/grilled-chicken.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 134,
+    "created_at": "2026-09-23T23:35:51.335Z",
+    "updated_at": "2026-09-23T23:35:51.335Z",
+    "discovery_tags": [
+      8,
+      22,
+      18,
+      13,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 136,
+  "fields": {
+    "category": 11,
+    "name": "Shrimp & Grits",
+    "country": "American",
+    "rating": "4.8",
+    "slug": "shrimp-grits",
+    "description": "Creamy Southern-style grits topped with seasoned shrimp.",
+    "price": "7500.00",
+    "image": "menu/items/shrimp-and-grits.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 135,
+    "created_at": "2026-09-23T23:37:27.330Z",
+    "updated_at": "2026-09-23T23:37:27.330Z",
+    "discovery_tags": [
+      8,
+      20,
+      18,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 137,
+  "fields": {
+    "category": 11,
+    "name": "Chicken Tikka Masala",
+    "country": "Indian",
+    "rating": "4.9",
+    "slug": "chicken-tikka-masala",
+    "description": "Tender chicken simmered in a creamy tomato and aromatic spice sauce.",
+    "price": "6500.00",
+    "image": "menu/items/chicken-tikka-masala.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 30,
+    "display_order": 136,
+    "created_at": "2026-09-24T06:56:21.699Z",
+    "updated_at": "2026-09-24T06:56:21.699Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      18,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 138,
+  "fields": {
+    "category": 11,
+    "name": "Butter Chicken",
+    "country": "Indian",
+    "rating": "4.9",
+    "slug": "butter-chicken",
+    "description": "Tender chicken cooked in a silky tomato, butter and spice sauce.",
+    "price": "6800.00",
+    "image": "menu/items/butter-chicken.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 30,
+    "display_order": 137,
+    "created_at": "2026-09-24T06:58:39.959Z",
+    "updated_at": "2026-09-24T06:58:39.959Z",
+    "discovery_tags": [
+      8,
+      20,
+      19,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 139,
+  "fields": {
+    "category": 11,
+    "name": "Chicken Biryani",
+    "country": "Indian",
+    "rating": "4.9",
+    "slug": "chicken-biryani",
+    "description": "Fragrant basmati rice layered with spiced chicken and aromatic herbs.",
+    "price": "6500.00",
+    "image": "menu/items/chicken-biryani.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 35,
+    "display_order": 138,
+    "created_at": "2026-09-24T07:00:20.585Z",
+    "updated_at": "2026-09-24T07:00:20.585Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      19,
+      11,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 140,
+  "fields": {
+    "category": 11,
+    "name": "Lamb Rogan Josh",
+    "country": "Indian",
+    "rating": "4.8",
+    "slug": "lamb-rogan-josh",
+    "description": "Slow-cooked lamb in a deeply aromatic Kashmiri-style curry.",
+    "price": "8000.00",
+    "image": "menu/items/lamb-rogan-josh.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 40,
+    "display_order": 139,
+    "created_at": "2026-09-24T07:01:53.147Z",
+    "updated_at": "2026-09-24T07:01:53.147Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      19,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 141,
+  "fields": {
+    "category": 11,
+    "name": "Palak Paneer",
+    "country": "Indian",
+    "rating": "4.7",
+    "slug": "palak-paneer",
+    "description": "Soft paneer cheese cooked in a creamy spinach and spice sauce.",
+    "price": "5800.00",
+    "image": "menu/items/palak-paneer.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 30,
+    "display_order": 140,
+    "created_at": "2026-09-24T07:03:25.188Z",
+    "updated_at": "2026-09-24T07:03:25.188Z",
+    "discovery_tags": [
+      8,
+      20,
+      17,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 142,
+  "fields": {
+    "category": 11,
+    "name": "Chana Masala",
+    "country": "Indian",
+    "rating": "4.6",
+    "slug": "chana-masala",
+    "description": "Chickpeas simmered in a rich tomato, onion and aromatic spice gravy.",
+    "price": "5000.00",
+    "image": "menu/items/chana-masala.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 141,
+    "created_at": "2026-09-24T07:04:49.018Z",
+    "updated_at": "2026-09-24T07:04:49.019Z",
+    "discovery_tags": [
+      8,
+      9,
+      20,
+      19,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 143,
+  "fields": {
+    "category": 11,
+    "name": "Lamb Biryani",
+    "country": "Indian",
+    "rating": "4.9",
+    "slug": "lamb-biryani",
+    "description": "Aromatic basmati rice layered with tender spiced lamb.",
+    "price": "7500.00",
+    "image": "menu/items/lamb-biryani.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 40,
+    "display_order": 142,
+    "created_at": "2026-09-24T07:06:21.021Z",
+    "updated_at": "2026-09-28T15:35:03.051Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      19,
+      11,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 144,
+  "fields": {
+    "category": 11,
+    "name": "Goan Fish Curry",
+    "country": "Indian",
+    "rating": "4.8",
+    "slug": "goan-fish-curry",
+    "description": "Fresh fish simmered in a fragrant coconut and chili curry.",
+    "price": "7000.00",
+    "image": "menu/items/goan-fish-curry.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 30,
+    "display_order": 143,
+    "created_at": "2026-09-24T07:07:54.676Z",
+    "updated_at": "2026-09-24T07:07:54.676Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      17,
+      11,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 145,
+  "fields": {
+    "category": 11,
+    "name": "Kung Pao Chicken",
+    "country": "Chinese",
+    "rating": "4.8",
+    "slug": "kung-pao-chicken",
+    "description": "Tender chicken stir-fried with peanuts, vegetables and chili.",
+    "price": "6000.00",
+    "image": "menu/items/kung-pao-chicken.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 25,
+    "display_order": 144,
+    "created_at": "2026-09-24T07:09:36.605Z",
+    "updated_at": "2026-09-24T07:09:36.605Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      17,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 146,
+  "fields": {
+    "category": 11,
+    "name": "Sweet & Sour Pork",
+    "country": "Chinese",
+    "rating": "4.7",
+    "slug": "sweet-sour-pork",
+    "description": "Crispy pork tossed in a vibrant sweet and tangy sauce.",
+    "price": "6500.00",
+    "image": "menu/items/sweet-sour-pork.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 145,
+    "created_at": "2026-09-24T07:12:28.581Z",
+    "updated_at": "2026-09-24T07:12:28.581Z",
+    "discovery_tags": [
+      8,
+      6,
+      21,
+      17,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 147,
+  "fields": {
+    "category": 11,
+    "name": "Mapo Tofu",
+    "country": "Chinese",
+    "rating": "4.7",
+    "slug": "mapo-tofu",
+    "description": "Silken tofu cooked with spicy chili, minced meat and Sichuan pepper.",
+    "price": "5200.00",
+    "image": "menu/items/mapo-tofu.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 20,
+    "display_order": 146,
+    "created_at": "2026-09-24T07:17:15.097Z",
+    "updated_at": "2026-09-24T07:17:15.097Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      17,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 148,
+  "fields": {
+    "category": 11,
+    "name": "Beef & Broccoli",
+    "country": "Chinese",
+    "rating": "4.8",
+    "slug": "beef-broccoli",
+    "description": "Tender beef and broccoli stir-fried in a savory Chinese sauce.",
+    "price": "6500.00",
+    "image": "menu/items/beef-broccoli.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 147,
+    "created_at": "2026-09-24T07:20:17.526Z",
+    "updated_at": "2026-09-24T07:20:17.526Z",
+    "discovery_tags": [
+      8,
+      22,
+      17,
+      11,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 149,
+  "fields": {
+    "category": 11,
+    "name": "Peking Duck",
+    "country": "Chinese",
+    "rating": "4.9",
+    "slug": "peking-duck",
+    "description": "Crispy roasted duck served with traditional pancakes and sauce.",
+    "price": "11000.00",
+    "image": "menu/items/peking-duck.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 45,
+    "display_order": 148,
+    "created_at": "2026-09-24T07:21:36.640Z",
+    "updated_at": "2026-09-24T07:21:36.640Z",
+    "discovery_tags": [
+      8,
+      6,
+      23,
+      19,
+      13,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 150,
+  "fields": {
+    "category": 11,
+    "name": "Yangzhou Fried Rice",
+    "country": "Chinese",
+    "rating": "4.7",
+    "slug": "yangzhou-fried-rice",
+    "description": "Fragrant fried rice prepared with egg, vegetables and savory protein.",
+    "price": "5500.00",
+    "image": "menu/items/yangzhou-fried-rice.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 149,
+    "created_at": "2026-09-24T07:23:03.743Z",
+    "updated_at": "2026-09-24T07:23:03.743Z",
+    "discovery_tags": [
+      8,
+      22,
+      17,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 151,
+  "fields": {
+    "category": 11,
+    "name": "Mongolian Beef",
+    "country": "Chinese",
+    "rating": "4.8",
+    "slug": "mongolian-beef",
+    "description": "Sliced beef cooked with scallions in a rich savory glaze.",
+    "price": "6800.00",
+    "image": "menu/items/mongolian-beef.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 150,
+    "created_at": "2026-09-24T07:24:27.644Z",
+    "updated_at": "2026-09-24T07:24:27.644Z",
+    "discovery_tags": [
+      8,
+      6,
+      22,
+      17,
+      12,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 152,
+  "fields": {
+    "category": 11,
+    "name": "Cantonese Roast Chicken",
+    "country": "Chinese",
+    "rating": "4.8",
+    "slug": "cantonese-roast-chicken",
+    "description": "Tender roast chicken with crisp skin and fragrant Cantonese seasoning.",
+    "price": "7000.00",
+    "image": "menu/items/cantonese-roast-chicken.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 45,
+    "display_order": 151,
+    "created_at": "2026-09-24T15:03:06.324Z",
+    "updated_at": "2026-09-24T15:07:21.804Z",
+    "discovery_tags": [
+      8,
+      22,
+      18,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 153,
+  "fields": {
+    "category": 11,
+    "name": "Hainanese Chicken Rice",
+    "country": "Chinese",
+    "rating": "4.9",
+    "slug": "hainanese-chicken-rice",
+    "description": "Poached chicken served with fragrant rice, chili and ginger sauce.",
+    "price": "6500.00",
+    "image": "menu/items/hainanese-chicken-rice.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 40,
+    "display_order": 152,
+    "created_at": "2026-09-24T15:08:55.496Z",
+    "updated_at": "2026-09-24T15:08:55.496Z",
+    "discovery_tags": [
+      8,
+      20,
+      19,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 154,
+  "fields": {
+    "category": 11,
+    "name": "Singapore Laksa",
+    "country": "Singaporean",
+    "rating": "4.9",
+    "slug": "singapore-laksa",
+    "description": "Rich coconut noodle soup with seafood, herbs and aromatic spices.",
+    "price": "7000.00",
+    "image": "menu/items/singapore-laksa.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 30,
+    "display_order": 153,
+    "created_at": "2026-09-24T15:11:43.137Z",
+    "updated_at": "2026-09-24T15:12:52.951Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      19,
+      11,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 155,
+  "fields": {
+    "category": 11,
+    "name": "Singapore Chilli Crab",
+    "country": "Singaporean",
+    "rating": "4.9",
+    "slug": "singapore-chilli-crab",
+    "description": "Fresh crab cooked in a rich, sweet and spicy chili sauce.",
+    "price": "12000.00",
+    "image": "menu/items/singapore-chilli-crab.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 35,
+    "display_order": 154,
+    "created_at": "2026-09-24T15:14:55.609Z",
+    "updated_at": "2026-09-24T15:14:55.609Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      18,
+      12,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 156,
+  "fields": {
+    "category": 11,
+    "name": "Char Kway Teow",
+    "country": "Singaporean",
+    "rating": "4.8",
+    "slug": "char-kway-teow",
+    "description": "Wok-fried flat rice noodles with seafood, egg and savory sauce.",
+    "price": "6500.00",
+    "image": "",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 155,
+    "created_at": "2026-09-24T15:16:26.659Z",
+    "updated_at": "2026-09-24T15:16:26.659Z",
+    "discovery_tags": [
+      8,
+      21,
+      19,
+      12,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 157,
+  "fields": {
+    "category": 11,
+    "name": "Hokkien Mee",
+    "country": "Singaporean",
+    "rating": "4.7",
+    "slug": "hokkien-mee",
+    "description": "Wok-fried noodles with prawns, squid and rich seafood broth.",
+    "price": "6800.00",
+    "image": "menu/items/hokkien-mee.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 156,
+    "created_at": "2026-09-24T15:17:42.216Z",
+    "updated_at": "2026-09-24T15:18:16.376Z",
+    "discovery_tags": [
+      8,
+      21,
+      19,
+      12,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 158,
+  "fields": {
+    "category": 11,
+    "name": "Singapore Nasi Lemak",
+    "country": "Singaporean",
+    "rating": "4.8",
+    "slug": "singapore-nasi-lemak",
+    "description": "Fragrant coconut rice served with sambal, egg, cucumber and protein.",
+    "price": "6000.00",
+    "image": "menu/items/singapore-nasi-lemak.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 30,
+    "display_order": 157,
+    "created_at": "2026-09-24T15:20:10.727Z",
+    "updated_at": "2026-09-24T15:20:10.727Z",
+    "discovery_tags": [
+      8,
+      9,
+      22,
+      19,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 159,
+  "fields": {
+    "category": 11,
+    "name": "Singapore Noodles",
+    "country": "Singaporean",
+    "rating": "4.7",
+    "slug": "singapore-noodles",
+    "description": "Rice vermicelli stir-fried with vegetables, egg and savory spices.",
+    "price": "6000.00",
+    "image": "menu/items/singapore-noodles.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 158,
+    "created_at": "2026-09-24T15:21:53.360Z",
+    "updated_at": "2026-09-24T15:21:53.360Z",
+    "discovery_tags": [
+      8,
+      21,
+      17,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 160,
+  "fields": {
+    "category": 11,
+    "name": "Bak Kut Teh",
+    "country": "Singaporean",
+    "rating": "4.8",
+    "slug": "bak-kut-teh",
+    "description": "Tender pork ribs simmered in a fragrant peppery herbal broth.",
+    "price": "7500.00",
+    "image": "menu/items/bak-kut-teh.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 60,
+    "display_order": 159,
+    "created_at": "2026-09-24T15:24:01.918Z",
+    "updated_at": "2026-09-24T15:24:01.918Z",
+    "discovery_tags": [
+      8,
+      20,
+      17,
+      12,
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 161,
+  "fields": {
+    "category": 11,
+    "name": "Jamaican Jerk Chicken",
+    "country": "Jamaican",
+    "rating": "4.9",
+    "slug": "jamaican-jerk-chicken",
+    "description": "Grilled chicken marinated in bold Jamaican jerk spices.",
+    "price": "6500.00",
+    "image": "menu/items/jerk-chicken.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 35,
+    "display_order": 160,
+    "created_at": "2026-09-24T15:25:53.428Z",
+    "updated_at": "2026-09-24T15:25:53.428Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      18,
+      13,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 162,
+  "fields": {
+    "category": 11,
+    "name": "Jamaican Oxtail & Rice",
+    "country": "Jamaican",
+    "rating": "4.8",
+    "slug": "jamaican-oxtail-rice",
+    "description": "Slow-braised oxtail served with seasoned rice and peas.",
+    "price": "8500.00",
+    "image": "menu/items/oxtail_rice.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 60,
+    "display_order": 161,
+    "created_at": "2026-09-24T15:31:25.850Z",
+    "updated_at": "2026-09-24T15:33:16.928Z",
+    "discovery_tags": [
+      8,
+      20,
+      19,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 163,
+  "fields": {
+    "category": 11,
+    "name": "Jamaican Curry Goat",
+    "country": "Jamaican",
+    "rating": "4.8",
+    "slug": "jamaican-curry-goat",
+    "description": "Tender goat slowly cooked in a rich Jamaican curry.",
+    "price": "8000.00",
+    "image": "menu/items/curry-goat.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 60,
+    "display_order": 162,
+    "created_at": "2026-09-24T15:35:24.201Z",
+    "updated_at": "2026-09-24T15:35:24.201Z",
+    "discovery_tags": [
+      8,
+      9,
+      20,
+      19,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 164,
+  "fields": {
+    "category": 11,
+    "name": "Brown Stew Chicken",
+    "country": "Jamaican",
+    "rating": "4.8",
+    "slug": "brown-stew-chicken",
+    "description": "Tender chicken braised in a rich Jamaican brown stew sauce.",
+    "price": "6500.00",
+    "image": "menu/items/brown-stew-chicken.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 45,
+    "display_order": 163,
+    "created_at": "2026-09-24T15:37:00.098Z",
+    "updated_at": "2026-09-24T15:37:00.098Z",
+    "discovery_tags": [
+      8,
+      6,
+      20,
+      18,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 165,
+  "fields": {
+    "category": 11,
+    "name": "Jamaican Escovitch Fish",
+    "country": "Jamaican",
+    "rating": "4.8",
+    "slug": "jamaican-escovitch-fish",
+    "description": "Crispy fried fish topped with spicy pickled vegetables.",
+    "price": "7500.00",
+    "image": "menu/items/escovitch-fish.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 30,
+    "display_order": 164,
+    "created_at": "2026-09-24T15:39:10.059Z",
+    "updated_at": "2026-09-24T15:39:10.059Z",
+    "discovery_tags": [
+      10,
+      9,
+      21,
+      17,
+      11,
+      3
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 166,
+  "fields": {
+    "category": 11,
+    "name": "Ackee & Saltfish",
+    "country": "Jamaican",
+    "rating": "4.7",
+    "slug": "ackee-saltfish",
+    "description": "Jamaica's classic ackee dish cooked with salted cod and vegetables.",
+    "price": "7000.00",
+    "image": "menu/items/ackee-saltfish.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 165,
+    "created_at": "2026-09-24T15:40:58.470Z",
+    "updated_at": "2026-09-24T15:40:58.470Z",
+    "discovery_tags": [
+      7,
+      8,
+      22,
+      17,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 167,
+  "fields": {
+    "category": 11,
+    "name": "Jamaican Curry Chicken",
+    "country": "Jamaican",
+    "rating": "4.8",
+    "slug": "jamaican-curry-chicken",
+    "description": "Chicken simmered in a fragrant Jamaican curry sauce.",
+    "price": "6200.00",
+    "image": "menu/items/jamaican-curry-chicken.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 45,
+    "display_order": 166,
+    "created_at": "2026-09-24T15:42:43.406Z",
+    "updated_at": "2026-09-24T15:42:43.406Z",
+    "discovery_tags": [
+      8,
+      9,
+      20,
+      18,
+      12,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 168,
+  "fields": {
+    "category": 11,
+    "name": "Jamaican Pepper Pot",
+    "country": "Jamaican",
+    "rating": "4.5",
+    "slug": "jamaican-pepper-pot",
+    "description": "Hearty Caribbean stew packed with greens, vegetables and rich spices.",
+    "price": "6500.00",
+    "image": "menu/items/jamaican-pepper-pot.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": true,
+    "preparation_time": 45,
+    "display_order": 167,
+    "created_at": "2026-09-24T15:44:31.384Z",
+    "updated_at": "2026-09-24T15:44:31.384Z",
+    "discovery_tags": [
+      8,
+      9,
+      21,
+      19,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 169,
+  "fields": {
+    "category": 11,
+    "name": "Chicken Katsu Curry",
+    "country": "Japanese",
+    "rating": "4.9",
+    "slug": "chicken-katsu-curry",
+    "description": "Crispy chicken cutlet served with Japanese curry and steamed rice.",
+    "price": "7000.00",
+    "image": "menu/items/chicken-katsu-curry.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 30,
+    "display_order": 168,
+    "created_at": "2026-09-24T15:46:17.299Z",
+    "updated_at": "2026-09-24T15:46:17.299Z",
+    "discovery_tags": [
+      8,
+      20,
+      18,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 170,
+  "fields": {
+    "category": 11,
+    "name": "Tonkatsu",
+    "country": "Japanese",
+    "rating": "4.8",
+    "slug": "tonkatsu",
+    "description": "Crispy breaded pork cutlet served with Japanese tonkatsu sauce.",
+    "price": "6800.00",
+    "image": "menu/items/tonkatsu.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 169,
+    "created_at": "2026-09-24T15:47:39.220Z",
+    "updated_at": "2026-09-24T15:47:39.220Z",
+    "discovery_tags": [
+      7,
+      8,
+      22,
+      17,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 171,
+  "fields": {
+    "category": 11,
+    "name": "Beef Teriyaki",
+    "country": "Japanese",
+    "rating": "4.8",
+    "slug": "beef-teriyaki",
+    "description": "Tender beef glazed with a sweet and savory teriyaki sauce.",
+    "price": "7500.00",
+    "image": "menu/items/beef-teriyaki.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 170,
+    "created_at": "2026-09-24T15:49:06.777Z",
+    "updated_at": "2026-09-24T15:49:06.777Z",
+    "discovery_tags": [
+      8,
+      6,
+      22,
+      17,
+      15,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 172,
+  "fields": {
+    "category": 11,
+    "name": "Chicken Teriyaki",
+    "country": "Japanese",
+    "rating": "4.8",
+    "slug": "chicken-teriyaki",
+    "description": "Grilled chicken glazed with classic Japanese teriyaki sauce.",
+    "price": "6500.00",
+    "image": "menu/items/chicken-teriyaki.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 171,
+    "created_at": "2026-09-24T15:50:31.176Z",
+    "updated_at": "2026-09-24T15:50:31.176Z",
+    "discovery_tags": [
+      8,
+      6,
+      22,
+      17,
+      11,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 173,
+  "fields": {
+    "category": 11,
+    "name": "Katsudon",
+    "country": "Japanese",
+    "rating": "4.8",
+    "slug": "katsudon",
+    "description": "Crispy pork cutlet simmered with egg and savory sauce over rice.",
+    "price": "6800.00",
+    "image": "menu/items/katsudon.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 172,
+    "created_at": "2026-09-24T15:51:50.186Z",
+    "updated_at": "2026-09-24T15:51:50.187Z",
+    "discovery_tags": [
+      8,
+      20,
+      19,
+      15,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 174,
+  "fields": {
+    "category": 11,
+    "name": "Oyakodon",
+    "country": "Japanese",
+    "rating": "4.7",
+    "slug": "oyakodon",
+    "description": "Tender chicken and egg simmered in savory dashi over steamed rice.",
+    "price": "6200.00",
+    "image": "menu/items/oyakodon.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 173,
+    "created_at": "2026-09-24T15:53:22.223Z",
+    "updated_at": "2026-09-24T15:53:22.223Z",
+    "discovery_tags": [
+      8,
+      20,
+      17,
+      14,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 175,
+  "fields": {
+    "category": 11,
+    "name": "Japanese Curry Rice",
+    "country": "Japanese",
+    "rating": "4.8",
+    "slug": "japanese-curry-rice",
+    "description": "Rich Japanese curry served with steamed rice and tender vegetables.",
+    "price": "6000.00",
+    "image": "menu/items/japanese-curry-rice.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 30,
+    "display_order": 174,
+    "created_at": "2026-09-24T15:55:20.663Z",
+    "updated_at": "2026-09-24T15:55:20.663Z",
+    "discovery_tags": [
+      8,
+      20,
+      19,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 176,
+  "fields": {
+    "category": 11,
+    "name": "Unagi Don",
+    "country": "Japanese",
+    "rating": "4.9",
+    "slug": "unagi-don",
+    "description": "Grilled eel glazed with sweet savory sauce over steamed rice.",
+    "price": "8500.00",
+    "image": "menu/items/unagi-don.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 20,
+    "display_order": 175,
+    "created_at": "2026-09-24T15:56:42.428Z",
+    "updated_at": "2026-09-24T15:56:42.428Z",
+    "discovery_tags": [
+      8,
+      6,
+      23,
+      17,
+      15,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 177,
+  "fields": {
+    "category": 11,
+    "name": "Classic Lasagna",
+    "country": "Italian",
+    "rating": "4.9",
+    "slug": "classic-lasagna",
+    "description": "Layered pasta, rich beef ragù, béchamel and melted cheese.",
+    "price": "7000.00",
+    "image": "menu/items/lasagna.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 40,
+    "display_order": 176,
+    "created_at": "2026-09-24T15:58:35.693Z",
+    "updated_at": "2026-09-24T15:58:35.693Z",
+    "discovery_tags": [
+      8,
+      20,
+      18,
+      12,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 178,
+  "fields": {
+    "category": 11,
+    "name": "Spaghetti Bolognese",
+    "country": "Italian",
+    "rating": "4.8",
+    "slug": "spaghetti-bolognese",
+    "description": "Spaghetti served with slow-cooked beef and tomato ragù.",
+    "price": "6500.00",
+    "image": "menu/items/spaghetti-bolognese.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 30,
+    "display_order": 177,
+    "created_at": "2026-09-24T16:00:12.986Z",
+    "updated_at": "2026-09-24T16:00:12.986Z",
+    "discovery_tags": [
+      8,
+      20,
+      19,
+      12,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 179,
+  "fields": {
+    "category": 11,
+    "name": "Chicken Parmigiana",
+    "country": "Italian",
+    "rating": "4.8",
+    "slug": "chicken-parmigiana",
+    "description": "Breaded chicken topped with tomato sauce and melted parmesan cheese.",
+    "price": "7500.00",
+    "image": "menu/items/chicken-parmigiana.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 35,
+    "display_order": 178,
+    "created_at": "2026-09-24T16:03:25.718Z",
+    "updated_at": "2026-09-24T16:03:25.718Z",
+    "discovery_tags": [
+      8,
+      20,
+      19,
+      13,
+      1
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 180,
+  "fields": {
+    "category": 11,
+    "name": "Risotto alla Milanese",
+    "country": "Italian",
+    "rating": "4.7",
+    "slug": "risotto-alla-milanese",
+    "description": "Creamy Italian risotto delicately flavored with saffron.",
+    "price": "6800.00",
+    "image": "menu/items/risotto-milanese.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 30,
+    "display_order": 179,
+    "created_at": "2026-09-24T16:05:30.698Z",
+    "updated_at": "2026-09-24T16:05:30.698Z",
+    "discovery_tags": [
+      8,
+      23,
+      17,
+      15,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 181,
+  "fields": {
+    "category": 11,
+    "name": "Fettuccine Alfredo",
+    "country": "Italian",
+    "rating": "4.8",
+    "slug": "fettuccine-alfredo",
+    "description": "Silky fettuccine coated in a creamy parmesan sauce.",
+    "price": "6500.00",
+    "image": "menu/items/fettuccine-alfredo.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 25,
+    "display_order": 180,
+    "created_at": "2026-09-24T16:07:03.768Z",
+    "updated_at": "2026-09-24T16:07:03.768Z",
+    "discovery_tags": [
+      8,
+      20,
+      18,
+      15,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 182,
+  "fields": {
+    "category": 11,
+    "name": "Eggplant Parmigiana",
+    "country": "Italian",
+    "rating": "4.7",
+    "slug": "eggplant-parmigiana",
+    "description": "Baked eggplant layered with tomato sauce, mozzarella and parmesan.",
+    "price": "6000.00",
+    "image": "menu/items/eggplant-parmigiana.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 35,
+    "display_order": 181,
+    "created_at": "2026-09-24T16:08:29.038Z",
+    "updated_at": "2026-09-24T16:08:29.038Z",
+    "discovery_tags": [
+      8,
+      20,
+      17,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 183,
+  "fields": {
+    "category": 11,
+    "name": "Osso Buco",
+    "country": "Italian",
+    "rating": "4.9",
+    "slug": "osso-buco",
+    "description": "Slow-braised veal shank served with a rich aromatic sauce.",
+    "price": "9500.00",
+    "image": "menu/items/osso-buco.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 45,
+    "display_order": 182,
+    "created_at": "2026-09-24T16:10:11.894Z",
+    "updated_at": "2026-09-24T16:10:11.894Z",
+    "discovery_tags": [
+      8,
+      23,
+      19,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 184,
+  "fields": {
+    "category": 11,
+    "name": "Chicken Marsala",
+    "country": "Italian",
+    "rating": "4.8",
+    "slug": "chicken-marsala",
+    "description": "Tender chicken cooked with mushrooms in a rich Marsala wine sauce.",
+    "price": "7500.00",
+    "image": "menu/items/chicken-marsala.jpg",
+    "is_available": true,
+    "is_featured": false,
+    "is_popular": false,
+    "is_spicy": false,
+    "preparation_time": 30,
+    "display_order": 183,
+    "created_at": "2026-09-24T16:11:40.379Z",
+    "updated_at": "2026-09-24T16:11:40.379Z",
+    "discovery_tags": [
+      8,
+      23,
+      17,
+      15,
+      5
+    ]
+  }
+},
+{
+  "model": "menu.review",
+  "pk": 1,
+  "fields": {
+    "user": 3,
+    "menu_item": 26,
+    "rating": 5,
+    "comment": "Amazing",
+    "created_at": "2026-09-29T18:43:16.118Z",
+    "updated_at": "2026-09-29T18:43:16.118Z"
+  }
+},
+{
+  "model": "menu.review",
+  "pk": 2,
+  "fields": {
+    "user": 3,
+    "menu_item": 26,
+    "rating": 3,
+    "comment": "It was delicious",
+    "created_at": "2026-09-29T18:43:42.972Z",
+    "updated_at": "2026-09-29T18:43:42.972Z"
+  }
+},
+{
+  "model": "menu.review",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "menu_item": 73,
+    "rating": 2,
+    "comment": "It is bitter",
+    "created_at": "2026-09-29T19:09:04.854Z",
+    "updated_at": "2026-09-29T19:09:04.854Z"
+  }
+}
+]
