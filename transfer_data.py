@@ -93,7 +93,8 @@ try:
         print("Transfer completed.")
 
 except Exception as exc:
-    print(f"TRANSFER FAILED: {exc}")
+    import traceback
+    traceback.print_exc()
     raise
 
 finally:
