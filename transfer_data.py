@@ -6,6 +6,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
 
 import django
 django.setup()
+close_old_connections()
 
 from django.db import transaction, close_old_connections
 from menu.models import Category, MenuItem
