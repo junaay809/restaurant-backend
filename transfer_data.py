@@ -7,7 +7,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
 import django
 django.setup()
 
-from django.db import transaction
+from django.db import transaction, close_old_connections
 from menu.models import Category, MenuItem
 
 SOURCE_DB = Path(__file__).resolve().parent / "db.sqlite3"
