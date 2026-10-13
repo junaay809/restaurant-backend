@@ -2,46 +2,47 @@ import os
 import sqlite3
 from pathlib import Path
 
-import django
-from django.db import connections, transaction
-
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
+
+import django
 django.setup()
 
-from menu.models import Category, DiscoveryTag, MenuItem
+from django.db import connections, transaction
+from menu.models import Category, MenuItem, DiscoveryTag
 
-# Original SQLite database
-SQLITE_FILE = Path(__file__).resolve().parent / "db.sqlite3"
+SOURCE_DB = Path(__file__).resolve().parent / "db.sqlite3"
 
-if not SQLITE_FILE.exists():
-    raise FileNotFoundError(f"SQLite database not found: {SQLITE_FILE}")
+if not SOURCE_DB.exists():
+    raise FileNotFoundError(f"SQLite database not found: {SOURCE_DB}")
 
-# Confirm Railway PostgreSQL is the destination
 if connections["default"].vendor != "postgresql":
-    raise RuntimeError(
-        "STOP: Django is not connected to PostgreSQL. "
-        "No records were transferred."
-    )
+    raise RuntimeError("STOP: Destination is not PostgreSQL.")
 
-source = sqlite3.connect(SQLITE_FILE)
+source = sqlite3.connect(SOURCE_DB)
 source.row_factory = sqlite3.Row
 
-def rows(table):
+def get_rows(table):
     return source.execute(f'SELECT * FROM "{table}"').fetchall()
 
-def columns(table):
-    return [col["name"] for col in source.execute(
-        f'PRAGMA table_info("{table}")'
-    ).fetchall()]
+def get_columns(table):
+    return {
+        column["name"]
+        for column in source.execute(
+            f'PRAGMA table_info("{table}")'
+        ).fetchall()
+    }
 
-def value(row, name, default=None):
-    return row[name] if name in row.keys() else default
+category_table = "menu_category"
+item_table = "menu_menuitem"
 
-print("Source:", SQLITE_FILE)
-print("Destination: Railway PostgreSQL")
-print("Source categories:", len(rows("menu_category")))
-print("Source menu items:", len(rows("menu_menuitem")))
+category_rows = get_rows(category_table)
+item_rows = get_rows(item_table)
 
-print("\nSafety check complete.")
-print("No records have been changed.")
+print(f"Source categories: {len(category_rows)}")
+print(f"Source menu items: {len(item_rows)}")
+
+print("\nSTOP: No records have been imported.")
+print("The source data and destination model schemas must be mapped")
+print("before importing to avoid corrupting existing records.")
+
 source.close()
